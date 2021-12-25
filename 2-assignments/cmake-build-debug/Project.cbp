@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Project"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/c-project/2-assignments/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/c-project/2-assignments/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="factorial">
+				<Option output="E:/c-project/2-assignments/cmake-build-debug/factorial.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 factorial"/>
+					<CompileFile command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="factorial/fast">
+				<Option output="E:/c-project/2-assignments/cmake-build-debug/factorial.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 factorial/fast"/>
+					<CompileFile command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cube">
+				<Option output="E:/c-project/2-assignments/cmake-build-debug/cube.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 cube"/>
+					<CompileFile command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cube/fast">
+				<Option output="E:/c-project/2-assignments/cmake-build-debug/cube.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 cube/fast"/>
+					<CompileFile command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="money">
+				<Option output="E:/c-project/2-assignments/cmake-build-debug/money.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 money"/>
+					<CompileFile command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="money/fast">
+				<Option output="E:/c-project/2-assignments/cmake-build-debug/money.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 money/fast"/>
+					<CompileFile command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="once">
+				<Option output="E:/c-project/2-assignments/cmake-build-debug/once.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 once"/>
+					<CompileFile command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="once/fast">
+				<Option output="E:/c-project/2-assignments/cmake-build-debug/once.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 once/fast"/>
+					<CompileFile command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="calculator">
+				<Option output="E:/c-project/2-assignments/cmake-build-debug/calculator.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 calculator"/>
+					<CompileFile command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="calculator/fast">
+				<Option output="E:/c-project/2-assignments/cmake-build-debug/calculator.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 calculator/fast"/>
+					<CompileFile command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="flip">
+				<Option output="E:/c-project/2-assignments/cmake-build-debug/flip.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 flip"/>
+					<CompileFile command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="flip/fast">
+				<Option output="E:/c-project/2-assignments/cmake-build-debug/flip.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 flip/fast"/>
+					<CompileFile command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="statistics">
+				<Option output="E:/c-project/2-assignments/cmake-build-debug/statistics.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 statistics"/>
+					<CompileFile command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="statistics/fast">
+				<Option output="E:/c-project/2-assignments/cmake-build-debug/statistics.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 statistics/fast"/>
+					<CompileFile command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/c-project/2-assignments/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/2-assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/c-project/2-assignments/calculator.c">
+			<Option target="calculator"/>
+		</Unit>
+		<Unit filename="E:/c-project/2-assignments/cube.c">
+			<Option target="cube"/>
+		</Unit>
+		<Unit filename="E:/c-project/2-assignments/factorial.c">
+			<Option target="factorial"/>
+		</Unit>
+		<Unit filename="E:/c-project/2-assignments/flip.c">
+			<Option target="flip"/>
+		</Unit>
+		<Unit filename="E:/c-project/2-assignments/money.c">
+			<Option target="money"/>
+		</Unit>
+		<Unit filename="E:/c-project/2-assignments/once.c">
+			<Option target="once"/>
+		</Unit>
+		<Unit filename="E:/c-project/2-assignments/statistics.c">
+			<Option target="statistics"/>
+		</Unit>
+		<Unit filename="E:/c-project/2-assignments/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

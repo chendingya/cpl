@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\game-of-life.dir/objects.a
+E:\c\mingw\mingw64\bin\ar.exe cr CMakeFiles\game-of-life.dir/objects.a @CMakeFiles\game-of-life.dir\objects1.rsp
+E:\c\mingw\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\game-of-life.dir/objects.a -Wl,--no-whole-archive -o game-of-life.exe -Wl,--out-implib,libgame-of-life.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\game-of-life.dir\linklibs.rsp

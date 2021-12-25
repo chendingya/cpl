@@ -1,0 +1,9 @@
+E:/c-project/7-assignments/cmake-build-debug/CMakeFiles/bizuo.dir
+E:/c-project/7-assignments/cmake-build-debug/CMakeFiles/perspective.dir
+E:/c-project/7-assignments/cmake-build-debug/CMakeFiles/max_diff.dir
+E:/c-project/7-assignments/cmake-build-debug/CMakeFiles/pour.dir
+E:/c-project/7-assignments/cmake-build-debug/CMakeFiles/stack.dir
+E:/c-project/7-assignments/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/c-project/7-assignments/cmake-build-debug/CMakeFiles/brackets.dir
+E:/c-project/7-assignments/cmake-build-debug/CMakeFiles/wine.dir
+E:/c-project/7-assignments/cmake-build-debug/CMakeFiles/rebuild_cache.dir

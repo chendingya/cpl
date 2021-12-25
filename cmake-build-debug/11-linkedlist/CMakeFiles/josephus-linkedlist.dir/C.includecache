@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/c-project/11-linkedlist/josephus-linkedlist.c
+stdio.h
+-
+ll/ll.h
+E:/c-project/11-linkedlist/ll/ll.h
+
+E:/c-project/11-linkedlist/ll/ll.c
+ll.h
+E:/c-project/11-linkedlist/ll/ll.h
+stdlib.h
+-
+stdio.h
+-
+stdbool.h
+-
+
+E:/c-project/11-linkedlist/ll/ll.h
+stdbool.h
+-
+

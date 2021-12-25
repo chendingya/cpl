@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\sum-re.dir/objects.a
+E:\c\mingw\mingw64\bin\ar.exe cr CMakeFiles\sum-re.dir/objects.a @CMakeFiles\sum-re.dir\objects1.rsp
+E:\c\mingw\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\sum-re.dir/objects.a -Wl,--no-whole-archive -o sum-re.exe -Wl,--out-implib,libsum-re.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\sum-re.dir\linklibs.rsp

@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\brackets.dir/objects.a
+E:\c\mingw\mingw64\bin\ar.exe cr CMakeFiles\brackets.dir/objects.a @CMakeFiles\brackets.dir\objects1.rsp
+E:\c\mingw\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\brackets.dir/objects.a -Wl,--no-whole-archive -o brackets.exe -Wl,--out-implib,libbrackets.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\brackets.dir\linklibs.rsp

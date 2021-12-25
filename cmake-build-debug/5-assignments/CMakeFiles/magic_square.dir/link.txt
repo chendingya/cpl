@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\magic_square.dir/objects.a
+E:\c\mingw\mingw64\bin\ar.exe cr CMakeFiles\magic_square.dir/objects.a @CMakeFiles\magic_square.dir\objects1.rsp
+E:\c\mingw\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\magic_square.dir/objects.a -Wl,--no-whole-archive -o magic_square.exe -Wl,--out-implib,libmagic_square.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\magic_square.dir\linklibs.rsp

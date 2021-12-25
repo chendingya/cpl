@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\digits.dir/objects.a
+E:\c\mingw\mingw64\bin\ar.exe cr CMakeFiles\digits.dir/objects.a @CMakeFiles\digits.dir\objects1.rsp
+E:\c\mingw\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\digits.dir/objects.a -Wl,--no-whole-archive -o digits.exe -Wl,--out-implib,libdigits.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\digits.dir\linklibs.rsp

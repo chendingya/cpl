@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Project"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/c-project/FCS/FCS-3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/FCS/FCS-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/FCS/FCS-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/FCS/FCS-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/FCS/FCS-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zi-wang">
+				<Option output="E:/c-project/FCS/FCS-3/cmake-build-debug/zi-wang.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/c-project/FCS/FCS-3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/FCS/FCS-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 zi-wang"/>
+					<CompileFile command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/FCS/FCS-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/FCS/FCS-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/FCS/FCS-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zi-wang/fast">
+				<Option output="E:/c-project/FCS/FCS-3/cmake-build-debug/zi-wang.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/c-project/FCS/FCS-3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/FCS/FCS-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 zi-wang/fast"/>
+					<CompileFile command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/FCS/FCS-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/FCS/FCS-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/FCS/FCS-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Compressed-character-expansion">
+				<Option output="E:/c-project/FCS/FCS-3/cmake-build-debug/Compressed-character-expansion.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/c-project/FCS/FCS-3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/FCS/FCS-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 Compressed-character-expansion"/>
+					<CompileFile command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/FCS/FCS-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/FCS/FCS-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/FCS/FCS-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Compressed-character-expansion/fast">
+				<Option output="E:/c-project/FCS/FCS-3/cmake-build-debug/Compressed-character-expansion.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/c-project/FCS/FCS-3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="e:\c\mingw\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/FCS/FCS-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 Compressed-character-expansion/fast"/>
+					<CompileFile command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/FCS/FCS-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/FCS/FCS-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/FCS/FCS-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/c-project/FCS/FCS-3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/FCS/FCS-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/FCS/FCS-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/FCS/FCS-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/FCS/FCS-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/c-project/FCS/FCS-3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/FCS/FCS-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/FCS/FCS-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/FCS/FCS-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/c/mingw/mingw64/bin/mingw32-make.exe -f &quot;E:/c-project/FCS/FCS-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/c-project/FCS/FCS-3/Compressed-character-expansion.c">
+			<Option target="Compressed-character-expansion"/>
+		</Unit>
+		<Unit filename="E:/c-project/FCS/FCS-3/zi-wang.c">
+			<Option target="zi-wang"/>
+		</Unit>
+		<Unit filename="E:/c-project/FCS/FCS-3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

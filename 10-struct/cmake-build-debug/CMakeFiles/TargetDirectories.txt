@@ -1,0 +1,5 @@
+E:/c-project/10-struct/cmake-build-debug/CMakeFiles/echo.dir
+E:/c-project/10-struct/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+E:/c-project/10-struct/cmake-build-debug/CMakeFiles/echo-flag.dir
+E:/c-project/10-struct/cmake-build-debug/CMakeFiles/sort.dir
+E:/c-project/10-struct/cmake-build-debug/CMakeFiles/edit_cache.dir

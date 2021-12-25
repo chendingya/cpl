@@ -1,0 +1,9 @@
+E:/c-project/2-assignments/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/c-project/2-assignments/cmake-build-debug/CMakeFiles/factorial.dir
+E:/c-project/2-assignments/cmake-build-debug/CMakeFiles/cube.dir
+E:/c-project/2-assignments/cmake-build-debug/CMakeFiles/money.dir
+E:/c-project/2-assignments/cmake-build-debug/CMakeFiles/once.dir
+E:/c-project/2-assignments/cmake-build-debug/CMakeFiles/calculator.dir
+E:/c-project/2-assignments/cmake-build-debug/CMakeFiles/flip.dir
+E:/c-project/2-assignments/cmake-build-debug/CMakeFiles/statistics.dir
+E:/c-project/2-assignments/cmake-build-debug/CMakeFiles/rebuild_cache.dir

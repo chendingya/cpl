@@ -1,0 +1,6 @@
+E:/c-project/FCS/FCS-1/cmake-build-debug/CMakeFiles/smallest.dir
+E:/c-project/FCS/FCS-1/cmake-build-debug/CMakeFiles/merge.dir
+E:/c-project/FCS/FCS-1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+E:/c-project/FCS/FCS-1/cmake-build-debug/CMakeFiles/binaryToInteger.dir
+E:/c-project/FCS/FCS-1/cmake-build-debug/CMakeFiles/rotate.dir
+E:/c-project/FCS/FCS-1/cmake-build-debug/CMakeFiles/edit_cache.dir

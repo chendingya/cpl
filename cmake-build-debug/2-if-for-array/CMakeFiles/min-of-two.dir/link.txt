@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\min-of-two.dir/objects.a
+E:\c\mingw\mingw64\bin\ar.exe cr CMakeFiles\min-of-two.dir/objects.a @CMakeFiles\min-of-two.dir\objects1.rsp
+E:\c\mingw\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\min-of-two.dir/objects.a -Wl,--no-whole-archive -o min-of-two.exe -Wl,--out-implib,libmin-of-two.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\min-of-two.dir\linklibs.rsp

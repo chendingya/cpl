@@ -1,0 +1,6 @@
+E:/c-project/FCS/FCS-2/cmake-build-debug/CMakeFiles/ai.dir
+E:/c-project/FCS/FCS-2/cmake-build-debug/CMakeFiles/powerof2.dir
+E:/c-project/FCS/FCS-2/cmake-build-debug/CMakeFiles/diversestring.dir
+E:/c-project/FCS/FCS-2/cmake-build-debug/CMakeFiles/antwar.dir
+E:/c-project/FCS/FCS-2/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/c-project/FCS/FCS-2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,8 @@
+E:/c-project/3-for-a-while/cmake-build-debug/CMakeFiles/binary-search.dir
+E:/c-project/3-for-a-while/cmake-build-debug/CMakeFiles/stars-pyramid.dir
+E:/c-project/3-for-a-while/cmake-build-debug/CMakeFiles/primes.dir
+E:/c-project/3-for-a-while/cmake-build-debug/CMakeFiles/selection-sort.dir
+E:/c-project/3-for-a-while/cmake-build-debug/CMakeFiles/palindrome.dir
+E:/c-project/3-for-a-while/cmake-build-debug/CMakeFiles/digits.dir
+E:/c-project/3-for-a-while/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/c-project/3-for-a-while/cmake-build-debug/CMakeFiles/rebuild_cache.dir

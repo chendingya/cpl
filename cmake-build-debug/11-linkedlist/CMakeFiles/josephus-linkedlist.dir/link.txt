@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\josephus-linkedlist.dir/objects.a
+E:\c\mingw\mingw64\bin\ar.exe cr CMakeFiles\josephus-linkedlist.dir/objects.a @CMakeFiles\josephus-linkedlist.dir\objects1.rsp
+E:\c\mingw\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\josephus-linkedlist.dir/objects.a -Wl,--no-whole-archive -o josephus-linkedlist.exe -Wl,--out-implib,libjosephus-linkedlist.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\josephus-linkedlist.dir\linklibs.rsp

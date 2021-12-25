@@ -1,0 +1,5 @@
+E:/c-project/8-pointers/cmake-build-debug/CMakeFiles/pointer.dir
+E:/c-project/8-pointers/cmake-build-debug/CMakeFiles/selection_sort.dir
+E:/c-project/8-pointers/cmake-build-debug/CMakeFiles/strlen.dir
+E:/c-project/8-pointers/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/c-project/8-pointers/cmake-build-debug/CMakeFiles/rebuild_cache.dir

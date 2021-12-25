@@ -1,0 +1,8 @@
+E:/c-project/8-assignments/cmake-build-debug/CMakeFiles/title.dir
+E:/c-project/8-assignments/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+E:/c-project/8-assignments/cmake-build-debug/CMakeFiles/interpreter.dir
+E:/c-project/8-assignments/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/c-project/8-assignments/cmake-build-debug/CMakeFiles/substr.dir
+E:/c-project/8-assignments/cmake-build-debug/CMakeFiles/stringcat.dir
+E:/c-project/8-assignments/cmake-build-debug/CMakeFiles/tokenizer.dir
+E:/c-project/8-assignments/cmake-build-debug/CMakeFiles/split.dir

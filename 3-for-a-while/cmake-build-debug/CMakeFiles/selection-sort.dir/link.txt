@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\selection-sort.dir/objects.a
+E:\c\mingw\mingw64\bin\ar.exe cr CMakeFiles\selection-sort.dir/objects.a @CMakeFiles\selection-sort.dir\objects1.rsp
+E:\c\mingw\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\selection-sort.dir/objects.a -Wl,--no-whole-archive -o selection-sort.exe -Wl,--out-implib,libselection-sort.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\selection-sort.dir\linklibs.rsp

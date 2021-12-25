@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\musician.dir/objects.a
+E:\c\mingw\mingw64\bin\ar.exe cr CMakeFiles\musician.dir/objects.a @CMakeFiles\musician.dir\objects1.rsp
+E:\c\mingw\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\musician.dir/objects.a -Wl,--no-whole-archive -o musician.exe -Wl,--out-implib,libmusician.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\musician.dir\linklibs.rsp

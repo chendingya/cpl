@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\planck1.dir/objects.a
+E:\c\mingw\mingw64\bin\ar.exe cr CMakeFiles\planck1.dir/objects.a @CMakeFiles\planck1.dir\objects1.rsp
+E:\c\mingw\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\planck1.dir/objects.a -Wl,--no-whole-archive -o planck1.exe -Wl,--out-implib,libplanck1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\planck1.dir\linklibs.rsp

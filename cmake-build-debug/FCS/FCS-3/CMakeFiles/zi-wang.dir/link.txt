@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\zi-wang.dir/objects.a
+E:\c\mingw\mingw64\bin\ar.exe cr CMakeFiles\zi-wang.dir/objects.a @CMakeFiles\zi-wang.dir\objects1.rsp
+E:\c\mingw\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\zi-wang.dir/objects.a -Wl,--no-whole-archive -o zi-wang.exe -Wl,--out-implib,libzi-wang.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\zi-wang.dir\linklibs.rsp

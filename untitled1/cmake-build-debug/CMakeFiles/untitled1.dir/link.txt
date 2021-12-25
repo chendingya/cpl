@@ -1,0 +1,2 @@
+E:\c\mingw\mingw64\bin\ar.exe qc libuntitled1.a CMakeFiles/untitled1.dir/library.c.obj
+E:\c\mingw\mingw64\bin\ranlib.exe libuntitled1.a

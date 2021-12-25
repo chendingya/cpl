@@ -1,0 +1,6 @@
+add_executable(zi-wang zi-wang.c)
+add_executable(Compressed-character-expansion Compressed-character-expansion.c)
+add_executable(division-method division-method.c)
+target_link_libraries(division-method m)
+add_executable(dizhisuoxie dizhisuoxie.c)
+target_link_libraries(dizhisuoxie m)

@@ -1,0 +1,9 @@
+E:/c-project/6-assignments/cmake-build-debug/CMakeFiles/plagiarize.dir
+E:/c-project/6-assignments/cmake-build-debug/CMakeFiles/max.dir
+E:/c-project/6-assignments/cmake-build-debug/CMakeFiles/tile.dir
+E:/c-project/6-assignments/cmake-build-debug/CMakeFiles/yanghui.dir
+E:/c-project/6-assignments/cmake-build-debug/CMakeFiles/triangle.dir
+E:/c-project/6-assignments/cmake-build-debug/CMakeFiles/integration.dir
+E:/c-project/6-assignments/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/c-project/6-assignments/cmake-build-debug/CMakeFiles/decomposition.dir
+E:/c-project/6-assignments/cmake-build-debug/CMakeFiles/rebuild_cache.dir

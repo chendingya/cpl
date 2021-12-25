@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\statistics.dir/objects.a
+E:\c\mingw\mingw64\bin\ar.exe cr CMakeFiles\statistics.dir/objects.a @CMakeFiles\statistics.dir\objects1.rsp
+E:\c\mingw\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\statistics.dir/objects.a -Wl,--no-whole-archive -o statistics.exe -Wl,--out-implib,libstatistics.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\statistics.dir\linklibs.rsp
