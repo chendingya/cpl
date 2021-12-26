@@ -128,6 +128,43 @@ linkedlist/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linkedlist.dir\build.make CMakeFiles/linkedlist.dir/build
 .PHONY : linkedlist/fast
 
+#=============================================================================
+# Target rules for targets named StackPour
+
+# Build rule for target.
+StackPour: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 StackPour
+.PHONY : StackPour
+
+# fast build rule for target.
+StackPour/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StackPour.dir\build.make CMakeFiles/StackPour.dir/build
+.PHONY : StackPour/fast
+
+StackPour.obj: StackPour.c.obj
+.PHONY : StackPour.obj
+
+# target to build an object file
+StackPour.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StackPour.dir\build.make CMakeFiles/StackPour.dir/StackPour.c.obj
+.PHONY : StackPour.c.obj
+
+StackPour.i: StackPour.c.i
+.PHONY : StackPour.i
+
+# target to preprocess a source file
+StackPour.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StackPour.dir\build.make CMakeFiles/StackPour.dir/StackPour.c.i
+.PHONY : StackPour.c.i
+
+StackPour.s: StackPour.c.s
+.PHONY : StackPour.s
+
+# target to generate assembly for a file
+StackPour.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StackPour.dir\build.make CMakeFiles/StackPour.dir/StackPour.c.s
+.PHONY : StackPour.c.s
+
 linkedlist.obj: linkedlist.c.obj
 .PHONY : linkedlist.obj
 
@@ -160,7 +197,11 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... StackPour
 	@echo ... linkedlist
+	@echo ... StackPour.obj
+	@echo ... StackPour.i
+	@echo ... StackPour.s
 	@echo ... linkedlist.obj
 	@echo ... linkedlist.i
 	@echo ... linkedlist.s

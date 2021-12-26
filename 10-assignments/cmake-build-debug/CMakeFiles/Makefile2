@@ -63,6 +63,7 @@ CMAKE_BINARY_DIR = E:\c-project\10-assignments\cmake-build-debug
 
 # The main recursive "all" target.
 all: CMakeFiles/linkedlist.dir/all
+all: CMakeFiles/StackPour.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,6 +72,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/linkedlist.dir/clean
+clean: CMakeFiles/StackPour.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -80,7 +82,7 @@ clean: CMakeFiles/linkedlist.dir/clean
 CMakeFiles/linkedlist.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linkedlist.dir\build.make CMakeFiles/linkedlist.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linkedlist.dir\build.make CMakeFiles/linkedlist.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\10-assignments\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target linkedlist"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\10-assignments\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target linkedlist"
 .PHONY : CMakeFiles/linkedlist.dir/all
 
 # Build rule for subdir invocation for target.
@@ -98,6 +100,32 @@ linkedlist: CMakeFiles/linkedlist.dir/rule
 CMakeFiles/linkedlist.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linkedlist.dir\build.make CMakeFiles/linkedlist.dir/clean
 .PHONY : CMakeFiles/linkedlist.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/StackPour.dir
+
+# All Build rule for target.
+CMakeFiles/StackPour.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StackPour.dir\build.make CMakeFiles/StackPour.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StackPour.dir\build.make CMakeFiles/StackPour.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\10-assignments\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target StackPour"
+.PHONY : CMakeFiles/StackPour.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/StackPour.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\10-assignments\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/StackPour.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\10-assignments\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/StackPour.dir/rule
+
+# Convenience name for target.
+StackPour: CMakeFiles/StackPour.dir/rule
+.PHONY : StackPour
+
+# clean rule for target.
+CMakeFiles/StackPour.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StackPour.dir\build.make CMakeFiles/StackPour.dir/clean
+.PHONY : CMakeFiles/StackPour.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
