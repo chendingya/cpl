@@ -152,7 +152,11 @@ E:/c-project/cmake-build-debug/11-linkedlist/CMakeFiles/josephus-linkedlist.dir
 E:/c-project/cmake-build-debug/11-linkedlist/CMakeFiles/edit_cache.dir
 E:/c-project/cmake-build-debug/11-linkedlist/CMakeFiles/rebuild_cache.dir
 E:/c-project/cmake-build-debug/10-assignments/CMakeFiles/edit_cache.dir
+E:/c-project/cmake-build-debug/10-assignments/CMakeFiles/linkedlist.dir
+E:/c-project/cmake-build-debug/10-assignments/CMakeFiles/StackPour.dir
+E:/c-project/cmake-build-debug/10-assignments/CMakeFiles/string-hash.dir
 E:/c-project/cmake-build-debug/10-assignments/CMakeFiles/rebuild_cache.dir
+E:/c-project/cmake-build-debug/10-assignments/CMakeFiles/file-management-system.dir
 E:/c-project/cmake-build-debug/FCS/CMakeFiles/edit_cache.dir
 E:/c-project/cmake-build-debug/FCS/CMakeFiles/rebuild_cache.dir
 E:/c-project/cmake-build-debug/FCS/FCS-1/CMakeFiles/smallest.dir

@@ -1,0 +1,26 @@
+
+@c:CommentedCodeu"Remove the commented out code.(Áˆˆ“8›‚²¯è/
+Fc:CommentedCodeÚ"Remove the commented out code.(å¶ïçşÿÿÿÿ8œ‚²¯è/
+Pc:S1172g"6Remove the unused parameter "argc" or make it unnamed.(ª½É¡8š„²¯è/
+Pc:S1172g"6Remove the unused parameter "argv" or make it unnamed.(ª½É¡8›„²¯è/
+bc:SingleDeclarationPerStatementp"0Define each identifier in a dedicated statement.(¶›’8Ÿ„²¯è/
+oc:S3776õ"TRefactor this function to reduce its Cognitive Complexity from 28 to the 25 allowed.(ëï×¸8ª„²¯è/
+gc:S134ı"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(ÛæÖÖ8«„²¯è/
+gc:S134€"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(Âû´Ê8«„²¯è/
+oc:S3776"TRefactor this function to reduce its Cognitive Complexity from 28 to the 25 allowed.(Ãˆ ‘8«„²¯è/
+gc:S134¦"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(„¦µ8«„²¯è/
+lc:S134©"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(ò¡šüûÿÿÿÿ8¬„²¯è/
+oc:S3776Å"TRefactor this function to reduce its Cognitive Complexity from 28 to the 25 allowed.(ı­§¿8¬„²¯è/
+lc:S134Î"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(’¤Æçøÿÿÿÿ8¬„²¯è/
+gc:S134Ñ"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(½·ı®8¬„²¯è/
+tc:S3776ì"TRefactor this function to reduce its Cognitive Complexity from 28 to the 25 allowed.(£Óâêüÿÿÿÿ8¬„²¯è/
+gc:S134õ"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(¼Ç²¡8­„²¯è/
+lc:S134ø"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(ùş÷´ıÿÿÿÿ8­„²¯è/
+oc:S3776•"TRefactor this function to reduce its Cognitive Complexity from 46 to the 25 allowed.(ı­Í÷8®„²¯è/
+gc:S134›"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(éÍ˜¬8¯„²¯è/
+gc:S134½"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(¡†‹8¯„²¯è/
+oc:S3776Û"TRefactor this function to reduce its Cognitive Complexity from 43 to the 25 allowed.(çü¼Ê8°„²¯è/
+lc:S134á"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(Åİ¶Ìøÿÿÿÿ8±„²¯è/
+lc:S134ó"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(Åİ¶Ìøÿÿÿÿ8±„²¯è/
+lc:S134…"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(Åİ¶Ìøÿÿÿÿ8±„²¯è/
+lc:S134–"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(Åİ¶Ìøÿÿÿÿ8±„²¯è/

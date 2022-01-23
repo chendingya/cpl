@@ -115,6 +115,158 @@ depend:
 	cd /d E:\c-project\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+10-assignments/CMakeFiles/linkedlist.dir/rule:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 10-assignments/CMakeFiles/linkedlist.dir/rule
+.PHONY : 10-assignments/CMakeFiles/linkedlist.dir/rule
+
+# Convenience name for target.
+linkedlist: 10-assignments/CMakeFiles/linkedlist.dir/rule
+.PHONY : linkedlist
+
+# fast build rule for target.
+linkedlist/fast:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 10-assignments\CMakeFiles\linkedlist.dir\build.make 10-assignments/CMakeFiles/linkedlist.dir/build
+.PHONY : linkedlist/fast
+
+# Convenience name for target.
+10-assignments/CMakeFiles/StackPour.dir/rule:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 10-assignments/CMakeFiles/StackPour.dir/rule
+.PHONY : 10-assignments/CMakeFiles/StackPour.dir/rule
+
+# Convenience name for target.
+StackPour: 10-assignments/CMakeFiles/StackPour.dir/rule
+.PHONY : StackPour
+
+# fast build rule for target.
+StackPour/fast:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 10-assignments\CMakeFiles\StackPour.dir\build.make 10-assignments/CMakeFiles/StackPour.dir/build
+.PHONY : StackPour/fast
+
+# Convenience name for target.
+10-assignments/CMakeFiles/string-hash.dir/rule:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 10-assignments/CMakeFiles/string-hash.dir/rule
+.PHONY : 10-assignments/CMakeFiles/string-hash.dir/rule
+
+# Convenience name for target.
+string-hash: 10-assignments/CMakeFiles/string-hash.dir/rule
+.PHONY : string-hash
+
+# fast build rule for target.
+string-hash/fast:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 10-assignments\CMakeFiles\string-hash.dir\build.make 10-assignments/CMakeFiles/string-hash.dir/build
+.PHONY : string-hash/fast
+
+# Convenience name for target.
+10-assignments/CMakeFiles/file-management-system.dir/rule:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 10-assignments/CMakeFiles/file-management-system.dir/rule
+.PHONY : 10-assignments/CMakeFiles/file-management-system.dir/rule
+
+# Convenience name for target.
+file-management-system: 10-assignments/CMakeFiles/file-management-system.dir/rule
+.PHONY : file-management-system
+
+# fast build rule for target.
+file-management-system/fast:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 10-assignments\CMakeFiles\file-management-system.dir\build.make 10-assignments/CMakeFiles/file-management-system.dir/build
+.PHONY : file-management-system/fast
+
+StackPour.obj: StackPour.c.obj
+.PHONY : StackPour.obj
+
+# target to build an object file
+StackPour.c.obj:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 10-assignments\CMakeFiles\StackPour.dir\build.make 10-assignments/CMakeFiles/StackPour.dir/StackPour.c.obj
+.PHONY : StackPour.c.obj
+
+StackPour.i: StackPour.c.i
+.PHONY : StackPour.i
+
+# target to preprocess a source file
+StackPour.c.i:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 10-assignments\CMakeFiles\StackPour.dir\build.make 10-assignments/CMakeFiles/StackPour.dir/StackPour.c.i
+.PHONY : StackPour.c.i
+
+StackPour.s: StackPour.c.s
+.PHONY : StackPour.s
+
+# target to generate assembly for a file
+StackPour.c.s:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 10-assignments\CMakeFiles\StackPour.dir\build.make 10-assignments/CMakeFiles/StackPour.dir/StackPour.c.s
+.PHONY : StackPour.c.s
+
+file-management-system.obj: file-management-system.c.obj
+.PHONY : file-management-system.obj
+
+# target to build an object file
+file-management-system.c.obj:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 10-assignments\CMakeFiles\file-management-system.dir\build.make 10-assignments/CMakeFiles/file-management-system.dir/file-management-system.c.obj
+.PHONY : file-management-system.c.obj
+
+file-management-system.i: file-management-system.c.i
+.PHONY : file-management-system.i
+
+# target to preprocess a source file
+file-management-system.c.i:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 10-assignments\CMakeFiles\file-management-system.dir\build.make 10-assignments/CMakeFiles/file-management-system.dir/file-management-system.c.i
+.PHONY : file-management-system.c.i
+
+file-management-system.s: file-management-system.c.s
+.PHONY : file-management-system.s
+
+# target to generate assembly for a file
+file-management-system.c.s:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 10-assignments\CMakeFiles\file-management-system.dir\build.make 10-assignments/CMakeFiles/file-management-system.dir/file-management-system.c.s
+.PHONY : file-management-system.c.s
+
+linkedlist.obj: linkedlist.c.obj
+.PHONY : linkedlist.obj
+
+# target to build an object file
+linkedlist.c.obj:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 10-assignments\CMakeFiles\linkedlist.dir\build.make 10-assignments/CMakeFiles/linkedlist.dir/linkedlist.c.obj
+.PHONY : linkedlist.c.obj
+
+linkedlist.i: linkedlist.c.i
+.PHONY : linkedlist.i
+
+# target to preprocess a source file
+linkedlist.c.i:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 10-assignments\CMakeFiles\linkedlist.dir\build.make 10-assignments/CMakeFiles/linkedlist.dir/linkedlist.c.i
+.PHONY : linkedlist.c.i
+
+linkedlist.s: linkedlist.c.s
+.PHONY : linkedlist.s
+
+# target to generate assembly for a file
+linkedlist.c.s:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 10-assignments\CMakeFiles\linkedlist.dir\build.make 10-assignments/CMakeFiles/linkedlist.dir/linkedlist.c.s
+.PHONY : linkedlist.c.s
+
+string-hash.obj: string-hash.c.obj
+.PHONY : string-hash.obj
+
+# target to build an object file
+string-hash.c.obj:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 10-assignments\CMakeFiles\string-hash.dir\build.make 10-assignments/CMakeFiles/string-hash.dir/string-hash.c.obj
+.PHONY : string-hash.c.obj
+
+string-hash.i: string-hash.c.i
+.PHONY : string-hash.i
+
+# target to preprocess a source file
+string-hash.c.i:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 10-assignments\CMakeFiles\string-hash.dir\build.make 10-assignments/CMakeFiles/string-hash.dir/string-hash.c.i
+.PHONY : string-hash.c.i
+
+string-hash.s: string-hash.c.s
+.PHONY : string-hash.s
+
+# target to generate assembly for a file
+string-hash.c.s:
+	cd /d E:\c-project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 10-assignments\CMakeFiles\string-hash.dir\build.make 10-assignments/CMakeFiles/string-hash.dir/string-hash.c.s
+.PHONY : string-hash.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -123,6 +275,22 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... StackPour
+	@echo ... file-management-system
+	@echo ... linkedlist
+	@echo ... string-hash
+	@echo ... StackPour.obj
+	@echo ... StackPour.i
+	@echo ... StackPour.s
+	@echo ... file-management-system.obj
+	@echo ... file-management-system.i
+	@echo ... file-management-system.s
+	@echo ... linkedlist.obj
+	@echo ... linkedlist.i
+	@echo ... linkedlist.s
+	@echo ... string-hash.obj
+	@echo ... string-hash.i
+	@echo ... string-hash.s
 .PHONY : help
 
 

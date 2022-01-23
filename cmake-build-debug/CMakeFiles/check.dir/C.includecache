@@ -9,6 +9,10 @@
 E:/c-project/check.c
 stdio.h
 -
+stdlib.h
+-
+stdbool.h
+-
 string.h
 -
 

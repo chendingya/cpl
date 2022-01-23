@@ -9,10 +9,18 @@
 E:/c-project/9-project/2048.c
 stdio.h
 -
+stdbool.h
+-
+conio.h
+-
 SDL2/SDL.h
 E:/c-project/9-project/SDL2/SDL.h
 SDL2/SDL_image.h
 E:/c-project/9-project/SDL2/SDL_image.h
 SDL2/SDL_ttf.h
 E:/c-project/9-project/SDL2/SDL_ttf.h
+time.h
+-
+windows.h
+-
 

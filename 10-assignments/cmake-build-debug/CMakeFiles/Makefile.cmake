@@ -53,4 +53,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/linkedlist.dir/DependInfo.cmake"
   "CMakeFiles/StackPour.dir/DependInfo.cmake"
+  "CMakeFiles/string-hash.dir/DependInfo.cmake"
+  "CMakeFiles/file-management-system.dir/DependInfo.cmake"
   )

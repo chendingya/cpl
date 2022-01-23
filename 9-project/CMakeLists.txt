@@ -1,4 +1,5 @@
 add_executable(2048 2048.c)
+target_link_libraries(2048 m)
 target_link_libraries(2048 mingw32)
 target_link_libraries(2048 SDL2main)
 target_link_libraries(2048 SDL2)

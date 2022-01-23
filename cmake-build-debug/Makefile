@@ -1559,6 +1559,58 @@ josephus-linkedlist/fast:
 .PHONY : josephus-linkedlist/fast
 
 #=============================================================================
+# Target rules for targets named linkedlist
+
+# Build rule for target.
+linkedlist: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 linkedlist
+.PHONY : linkedlist
+
+# fast build rule for target.
+linkedlist/fast:
+	$(MAKE) $(MAKESILENT) -f 10-assignments\CMakeFiles\linkedlist.dir\build.make 10-assignments/CMakeFiles/linkedlist.dir/build
+.PHONY : linkedlist/fast
+
+#=============================================================================
+# Target rules for targets named StackPour
+
+# Build rule for target.
+StackPour: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 StackPour
+.PHONY : StackPour
+
+# fast build rule for target.
+StackPour/fast:
+	$(MAKE) $(MAKESILENT) -f 10-assignments\CMakeFiles\StackPour.dir\build.make 10-assignments/CMakeFiles/StackPour.dir/build
+.PHONY : StackPour/fast
+
+#=============================================================================
+# Target rules for targets named string-hash
+
+# Build rule for target.
+string-hash: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 string-hash
+.PHONY : string-hash
+
+# fast build rule for target.
+string-hash/fast:
+	$(MAKE) $(MAKESILENT) -f 10-assignments\CMakeFiles\string-hash.dir\build.make 10-assignments/CMakeFiles/string-hash.dir/build
+.PHONY : string-hash/fast
+
+#=============================================================================
+# Target rules for targets named file-management-system
+
+# Build rule for target.
+file-management-system: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 file-management-system
+.PHONY : file-management-system
+
+# fast build rule for target.
+file-management-system/fast:
+	$(MAKE) $(MAKESILENT) -f 10-assignments\CMakeFiles\file-management-system.dir\build.make 10-assignments/CMakeFiles/file-management-system.dir/build
+.PHONY : file-management-system/fast
+
+#=============================================================================
 # Target rules for targets named smallest
 
 # Build rule for target.
@@ -1812,6 +1864,7 @@ help:
 	@echo ... 2048
 	@echo ... Compressed-character-expansion
 	@echo ... PI
+	@echo ... StackPour
 	@echo ... absolute-prime
 	@echo ... admin
 	@echo ... admin_teacher
@@ -1845,6 +1898,7 @@ help:
 	@echo ... fib
 	@echo ... fib-array
 	@echo ... fib-iter
+	@echo ... file-management-system
 	@echo ... flip
 	@echo ... fp
 	@echo ... game-of-life
@@ -1869,6 +1923,7 @@ help:
 	@echo ... leap
 	@echo ... leap-if-else-not
 	@echo ... leap-year
+	@echo ... linkedlist
 	@echo ... loop
 	@echo ... magic_square
 	@echo ... max
@@ -1912,6 +1967,7 @@ help:
 	@echo ... stack
 	@echo ... stars-pyramid
 	@echo ... statistics
+	@echo ... string-hash
 	@echo ... stringcat
 	@echo ... strlen
 	@echo ... substr

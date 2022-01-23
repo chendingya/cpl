@@ -141,6 +141,32 @@ StackPour/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StackPour.dir\build.make CMakeFiles/StackPour.dir/build
 .PHONY : StackPour/fast
 
+#=============================================================================
+# Target rules for targets named string-hash
+
+# Build rule for target.
+string-hash: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 string-hash
+.PHONY : string-hash
+
+# fast build rule for target.
+string-hash/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\string-hash.dir\build.make CMakeFiles/string-hash.dir/build
+.PHONY : string-hash/fast
+
+#=============================================================================
+# Target rules for targets named file-management-system
+
+# Build rule for target.
+file-management-system: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 file-management-system
+.PHONY : file-management-system
+
+# fast build rule for target.
+file-management-system/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\file-management-system.dir\build.make CMakeFiles/file-management-system.dir/build
+.PHONY : file-management-system/fast
+
 StackPour.obj: StackPour.c.obj
 .PHONY : StackPour.obj
 
@@ -164,6 +190,30 @@ StackPour.s: StackPour.c.s
 StackPour.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StackPour.dir\build.make CMakeFiles/StackPour.dir/StackPour.c.s
 .PHONY : StackPour.c.s
+
+file-management-system.obj: file-management-system.c.obj
+.PHONY : file-management-system.obj
+
+# target to build an object file
+file-management-system.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\file-management-system.dir\build.make CMakeFiles/file-management-system.dir/file-management-system.c.obj
+.PHONY : file-management-system.c.obj
+
+file-management-system.i: file-management-system.c.i
+.PHONY : file-management-system.i
+
+# target to preprocess a source file
+file-management-system.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\file-management-system.dir\build.make CMakeFiles/file-management-system.dir/file-management-system.c.i
+.PHONY : file-management-system.c.i
+
+file-management-system.s: file-management-system.c.s
+.PHONY : file-management-system.s
+
+# target to generate assembly for a file
+file-management-system.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\file-management-system.dir\build.make CMakeFiles/file-management-system.dir/file-management-system.c.s
+.PHONY : file-management-system.c.s
 
 linkedlist.obj: linkedlist.c.obj
 .PHONY : linkedlist.obj
@@ -189,6 +239,30 @@ linkedlist.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linkedlist.dir\build.make CMakeFiles/linkedlist.dir/linkedlist.c.s
 .PHONY : linkedlist.c.s
 
+string-hash.obj: string-hash.c.obj
+.PHONY : string-hash.obj
+
+# target to build an object file
+string-hash.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\string-hash.dir\build.make CMakeFiles/string-hash.dir/string-hash.c.obj
+.PHONY : string-hash.c.obj
+
+string-hash.i: string-hash.c.i
+.PHONY : string-hash.i
+
+# target to preprocess a source file
+string-hash.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\string-hash.dir\build.make CMakeFiles/string-hash.dir/string-hash.c.i
+.PHONY : string-hash.c.i
+
+string-hash.s: string-hash.c.s
+.PHONY : string-hash.s
+
+# target to generate assembly for a file
+string-hash.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\string-hash.dir\build.make CMakeFiles/string-hash.dir/string-hash.c.s
+.PHONY : string-hash.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -198,13 +272,21 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... StackPour
+	@echo ... file-management-system
 	@echo ... linkedlist
+	@echo ... string-hash
 	@echo ... StackPour.obj
 	@echo ... StackPour.i
 	@echo ... StackPour.s
+	@echo ... file-management-system.obj
+	@echo ... file-management-system.i
+	@echo ... file-management-system.s
 	@echo ... linkedlist.obj
 	@echo ... linkedlist.i
 	@echo ... linkedlist.s
+	@echo ... string-hash.obj
+	@echo ... string-hash.i
+	@echo ... string-hash.s
 .PHONY : help
 
 

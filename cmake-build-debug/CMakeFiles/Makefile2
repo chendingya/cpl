@@ -250,7 +250,10 @@ clean: FCS/clean
 # Directory level rules for directory 10-assignments
 
 # Recursive "all" directory target.
-10-assignments/all:
+10-assignments/all: 10-assignments/CMakeFiles/linkedlist.dir/all
+10-assignments/all: 10-assignments/CMakeFiles/StackPour.dir/all
+10-assignments/all: 10-assignments/CMakeFiles/string-hash.dir/all
+10-assignments/all: 10-assignments/CMakeFiles/file-management-system.dir/all
 .PHONY : 10-assignments/all
 
 # Recursive "preinstall" directory target.
@@ -258,7 +261,10 @@ clean: FCS/clean
 .PHONY : 10-assignments/preinstall
 
 # Recursive "clean" directory target.
-10-assignments/clean:
+10-assignments/clean: 10-assignments/CMakeFiles/linkedlist.dir/clean
+10-assignments/clean: 10-assignments/CMakeFiles/StackPour.dir/clean
+10-assignments/clean: 10-assignments/CMakeFiles/string-hash.dir/clean
+10-assignments/clean: 10-assignments/CMakeFiles/file-management-system.dir/clean
 .PHONY : 10-assignments/clean
 
 #=============================================================================
@@ -746,12 +752,12 @@ computer-basis-test/clean: computer-basis-test/CMakeFiles/test2.dir/clean
 CMakeFiles/check.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\check.dir\build.make CMakeFiles/check.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\check.dir\build.make CMakeFiles/check.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num= "Built target check"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=16 "Built target check"
 .PHONY : CMakeFiles/check.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/check.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/check.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/check.dir/rule
@@ -824,12 +830,12 @@ hello: 0-intro/CMakeFiles/hello.dir/rule
 0-intro/CMakeFiles/guess.dir/all:
 	$(MAKE) $(MAKESILENT) -f 0-intro\CMakeFiles\guess.dir\build.make 0-intro/CMakeFiles/guess.dir/depend
 	$(MAKE) $(MAKESILENT) -f 0-intro\CMakeFiles\guess.dir\build.make 0-intro/CMakeFiles/guess.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=36 "Built target guess"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num= "Built target guess"
 .PHONY : 0-intro/CMakeFiles/guess.dir/all
 
 # Build rule for subdir invocation for target.
 0-intro/CMakeFiles/guess.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 0-intro/CMakeFiles/guess.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 .PHONY : 0-intro/CMakeFiles/guess.dir/rule
@@ -850,7 +856,7 @@ guess: 0-intro/CMakeFiles/guess.dir/rule
 1-types-io/CMakeFiles/admin_teacher.dir/all:
 	$(MAKE) $(MAKESILENT) -f 1-types-io\CMakeFiles\admin_teacher.dir\build.make 1-types-io/CMakeFiles/admin_teacher.dir/depend
 	$(MAKE) $(MAKESILENT) -f 1-types-io\CMakeFiles\admin_teacher.dir\build.make 1-types-io/CMakeFiles/admin_teacher.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=4 "Built target admin_teacher"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=5 "Built target admin_teacher"
 .PHONY : 1-types-io/CMakeFiles/admin_teacher.dir/all
 
 # Build rule for subdir invocation for target.
@@ -876,12 +882,12 @@ admin_teacher: 1-types-io/CMakeFiles/admin_teacher.dir/rule
 1-types-io/CMakeFiles/circle.dir/all:
 	$(MAKE) $(MAKESILENT) -f 1-types-io\CMakeFiles\circle.dir\build.make 1-types-io/CMakeFiles/circle.dir/depend
 	$(MAKE) $(MAKESILENT) -f 1-types-io\CMakeFiles\circle.dir\build.make 1-types-io/CMakeFiles/circle.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=16 "Built target circle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num= "Built target circle"
 .PHONY : 1-types-io/CMakeFiles/circle.dir/all
 
 # Build rule for subdir invocation for target.
 1-types-io/CMakeFiles/circle.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 1-types-io/CMakeFiles/circle.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 .PHONY : 1-types-io/CMakeFiles/circle.dir/rule
@@ -954,12 +960,12 @@ mol: 1-types-io/CMakeFiles/mol.dir/rule
 1-types-io/CMakeFiles/int.dir/all:
 	$(MAKE) $(MAKESILENT) -f 1-types-io\CMakeFiles\int.dir\build.make 1-types-io/CMakeFiles/int.dir/depend
 	$(MAKE) $(MAKESILENT) -f 1-types-io\CMakeFiles\int.dir\build.make 1-types-io/CMakeFiles/int.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=39 "Built target int"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num= "Built target int"
 .PHONY : 1-types-io/CMakeFiles/int.dir/all
 
 # Build rule for subdir invocation for target.
 1-types-io/CMakeFiles/int.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 1-types-io/CMakeFiles/int.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 .PHONY : 1-types-io/CMakeFiles/int.dir/rule
@@ -980,12 +986,12 @@ int: 1-types-io/CMakeFiles/int.dir/rule
 1-types-io/CMakeFiles/admin.dir/all:
 	$(MAKE) $(MAKESILENT) -f 1-types-io\CMakeFiles\admin.dir\build.make 1-types-io/CMakeFiles/admin.dir/depend
 	$(MAKE) $(MAKESILENT) -f 1-types-io\CMakeFiles\admin.dir\build.make 1-types-io/CMakeFiles/admin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num= "Built target admin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=4 "Built target admin"
 .PHONY : 1-types-io/CMakeFiles/admin.dir/all
 
 # Build rule for subdir invocation for target.
 1-types-io/CMakeFiles/admin.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 1-types-io/CMakeFiles/admin.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 .PHONY : 1-types-io/CMakeFiles/admin.dir/rule
@@ -1110,7 +1116,7 @@ PI: 1-assignments/CMakeFiles/PI.dir/rule
 1-assignments/CMakeFiles/gray.dir/all:
 	$(MAKE) $(MAKESILENT) -f 1-assignments\CMakeFiles\gray.dir\build.make 1-assignments/CMakeFiles/gray.dir/depend
 	$(MAKE) $(MAKESILENT) -f 1-assignments\CMakeFiles\gray.dir\build.make 1-assignments/CMakeFiles/gray.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=34 "Built target gray"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=35 "Built target gray"
 .PHONY : 1-assignments/CMakeFiles/gray.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1162,12 +1168,12 @@ equation: 1-assignments/CMakeFiles/equation.dir/rule
 1-assignments/CMakeFiles/inverse.dir/all:
 	$(MAKE) $(MAKESILENT) -f 1-assignments\CMakeFiles\inverse.dir\build.make 1-assignments/CMakeFiles/inverse.dir/depend
 	$(MAKE) $(MAKESILENT) -f 1-assignments\CMakeFiles\inverse.dir\build.make 1-assignments/CMakeFiles/inverse.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num= "Built target inverse"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=42 "Built target inverse"
 .PHONY : 1-assignments/CMakeFiles/inverse.dir/all
 
 # Build rule for subdir invocation for target.
 1-assignments/CMakeFiles/inverse.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 1-assignments/CMakeFiles/inverse.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 .PHONY : 1-assignments/CMakeFiles/inverse.dir/rule
@@ -1240,12 +1246,12 @@ weekday: 1-assignments/CMakeFiles/weekday.dir/rule
 1-types-io-std/CMakeFiles/planck1.dir/all:
 	$(MAKE) $(MAKESILENT) -f 1-types-io-std\CMakeFiles\planck1.dir\build.make 1-types-io-std/CMakeFiles/planck1.dir/depend
 	$(MAKE) $(MAKESILENT) -f 1-types-io-std\CMakeFiles\planck1.dir\build.make 1-types-io-std/CMakeFiles/planck1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num= "Built target planck1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=67 "Built target planck1"
 .PHONY : 1-types-io-std/CMakeFiles/planck1.dir/all
 
 # Build rule for subdir invocation for target.
 1-types-io-std/CMakeFiles/planck1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 1-types-io-std/CMakeFiles/planck1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 .PHONY : 1-types-io-std/CMakeFiles/planck1.dir/rule
@@ -1266,12 +1272,12 @@ planck1: 1-types-io-std/CMakeFiles/planck1.dir/rule
 1-types-io-std/CMakeFiles/ascii1.dir/all:
 	$(MAKE) $(MAKESILENT) -f 1-types-io-std\CMakeFiles\ascii1.dir\build.make 1-types-io-std/CMakeFiles/ascii1.dir/depend
 	$(MAKE) $(MAKESILENT) -f 1-types-io-std\CMakeFiles\ascii1.dir\build.make 1-types-io-std/CMakeFiles/ascii1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num= "Built target ascii1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=8 "Built target ascii1"
 .PHONY : 1-types-io-std/CMakeFiles/ascii1.dir/all
 
 # Build rule for subdir invocation for target.
 1-types-io-std/CMakeFiles/ascii1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 1-types-io-std/CMakeFiles/ascii1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 .PHONY : 1-types-io-std/CMakeFiles/ascii1.dir/rule
@@ -1318,12 +1324,12 @@ change1: 1-types-io-std/CMakeFiles/change1.dir/rule
 1-types-io-std/CMakeFiles/inverse1.dir/all:
 	$(MAKE) $(MAKESILENT) -f 1-types-io-std\CMakeFiles\inverse1.dir\build.make 1-types-io-std/CMakeFiles/inverse1.dir/depend
 	$(MAKE) $(MAKESILENT) -f 1-types-io-std\CMakeFiles\inverse1.dir\build.make 1-types-io-std/CMakeFiles/inverse1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=42 "Built target inverse1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num= "Built target inverse1"
 .PHONY : 1-types-io-std/CMakeFiles/inverse1.dir/all
 
 # Build rule for subdir invocation for target.
 1-types-io-std/CMakeFiles/inverse1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 1-types-io-std/CMakeFiles/inverse1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 .PHONY : 1-types-io-std/CMakeFiles/inverse1.dir/rule
@@ -1396,7 +1402,7 @@ pi1: 1-types-io-std/CMakeFiles/pi1.dir/rule
 1-types-io-std/CMakeFiles/gray1.dir/all:
 	$(MAKE) $(MAKESILENT) -f 1-types-io-std\CMakeFiles\gray1.dir\build.make 1-types-io-std/CMakeFiles/gray1.dir/depend
 	$(MAKE) $(MAKESILENT) -f 1-types-io-std\CMakeFiles\gray1.dir\build.make 1-types-io-std/CMakeFiles/gray1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=35 "Built target gray1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=36 "Built target gray1"
 .PHONY : 1-types-io-std/CMakeFiles/gray1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1422,12 +1428,12 @@ gray1: 1-types-io-std/CMakeFiles/gray1.dir/rule
 1-types-io-std/CMakeFiles/quine1.dir/all:
 	$(MAKE) $(MAKESILENT) -f 1-types-io-std\CMakeFiles\quine1.dir\build.make 1-types-io-std/CMakeFiles/quine1.dir/depend
 	$(MAKE) $(MAKESILENT) -f 1-types-io-std\CMakeFiles\quine1.dir\build.make 1-types-io-std/CMakeFiles/quine1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=70 "Built target quine1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num= "Built target quine1"
 .PHONY : 1-types-io-std/CMakeFiles/quine1.dir/all
 
 # Build rule for subdir invocation for target.
 1-types-io-std/CMakeFiles/quine1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 1-types-io-std/CMakeFiles/quine1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 .PHONY : 1-types-io-std/CMakeFiles/quine1.dir/rule
@@ -1500,7 +1506,7 @@ weekday1: 1-types-io-std/CMakeFiles/weekday1.dir/rule
 2-if-for-array/CMakeFiles/min-of-two.dir/all:
 	$(MAKE) $(MAKESILENT) -f 2-if-for-array\CMakeFiles\min-of-two.dir\build.make 2-if-for-array/CMakeFiles/min-of-two.dir/depend
 	$(MAKE) $(MAKESILENT) -f 2-if-for-array\CMakeFiles\min-of-two.dir\build.make 2-if-for-array/CMakeFiles/min-of-two.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=55 "Built target min-of-two"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=56 "Built target min-of-two"
 .PHONY : 2-if-for-array/CMakeFiles/min-of-two.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1526,12 +1532,12 @@ min-of-two: 2-if-for-array/CMakeFiles/min-of-two.dir/rule
 2-if-for-array/CMakeFiles/min-of-three.dir/all:
 	$(MAKE) $(MAKESILENT) -f 2-if-for-array\CMakeFiles\min-of-three.dir\build.make 2-if-for-array/CMakeFiles/min-of-three.dir/depend
 	$(MAKE) $(MAKESILENT) -f 2-if-for-array\CMakeFiles\min-of-three.dir\build.make 2-if-for-array/CMakeFiles/min-of-three.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num= "Built target min-of-three"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=55 "Built target min-of-three"
 .PHONY : 2-if-for-array/CMakeFiles/min-of-three.dir/all
 
 # Build rule for subdir invocation for target.
 2-if-for-array/CMakeFiles/min-of-three.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 2-if-for-array/CMakeFiles/min-of-three.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 .PHONY : 2-if-for-array/CMakeFiles/min-of-three.dir/rule
@@ -1552,12 +1558,12 @@ min-of-three: 2-if-for-array/CMakeFiles/min-of-three.dir/rule
 2-if-for-array/CMakeFiles/min.dir/all:
 	$(MAKE) $(MAKESILENT) -f 2-if-for-array\CMakeFiles\min.dir\build.make 2-if-for-array/CMakeFiles/min.dir/depend
 	$(MAKE) $(MAKESILENT) -f 2-if-for-array\CMakeFiles\min.dir\build.make 2-if-for-array/CMakeFiles/min.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=54 "Built target min"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num= "Built target min"
 .PHONY : 2-if-for-array/CMakeFiles/min.dir/all
 
 # Build rule for subdir invocation for target.
 2-if-for-array/CMakeFiles/min.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 2-if-for-array/CMakeFiles/min.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 .PHONY : 2-if-for-array/CMakeFiles/min.dir/rule
@@ -1656,7 +1662,7 @@ leap: 2-if-for-array/CMakeFiles/leap.dir/rule
 2-if-for-array/CMakeFiles/sum.dir/all:
 	$(MAKE) $(MAKESILENT) -f 2-if-for-array\CMakeFiles\sum.dir\build.make 2-if-for-array/CMakeFiles/sum.dir/depend
 	$(MAKE) $(MAKESILENT) -f 2-if-for-array\CMakeFiles\sum.dir\build.make 2-if-for-array/CMakeFiles/sum.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=85 "Built target sum"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=86 "Built target sum"
 .PHONY : 2-if-for-array/CMakeFiles/sum.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1734,12 +1740,12 @@ cube: 2-assignments/CMakeFiles/cube.dir/rule
 2-assignments/CMakeFiles/money.dir/all:
 	$(MAKE) $(MAKESILENT) -f 2-assignments\CMakeFiles\money.dir\build.make 2-assignments/CMakeFiles/money.dir/depend
 	$(MAKE) $(MAKESILENT) -f 2-assignments\CMakeFiles\money.dir\build.make 2-assignments/CMakeFiles/money.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num= "Built target money"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=59 "Built target money"
 .PHONY : 2-assignments/CMakeFiles/money.dir/all
 
 # Build rule for subdir invocation for target.
 2-assignments/CMakeFiles/money.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 2-assignments/CMakeFiles/money.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 .PHONY : 2-assignments/CMakeFiles/money.dir/rule
@@ -1786,12 +1792,12 @@ once: 2-assignments/CMakeFiles/once.dir/rule
 2-assignments/CMakeFiles/calculator.dir/all:
 	$(MAKE) $(MAKESILENT) -f 2-assignments\CMakeFiles\calculator.dir\build.make 2-assignments/CMakeFiles/calculator.dir/depend
 	$(MAKE) $(MAKESILENT) -f 2-assignments\CMakeFiles\calculator.dir\build.make 2-assignments/CMakeFiles/calculator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=13 "Built target calculator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num= "Built target calculator"
 .PHONY : 2-assignments/CMakeFiles/calculator.dir/all
 
 # Build rule for subdir invocation for target.
 2-assignments/CMakeFiles/calculator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 2-assignments/CMakeFiles/calculator.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 .PHONY : 2-assignments/CMakeFiles/calculator.dir/rule
@@ -1812,12 +1818,12 @@ calculator: 2-assignments/CMakeFiles/calculator.dir/rule
 2-assignments/CMakeFiles/flip.dir/all:
 	$(MAKE) $(MAKESILENT) -f 2-assignments\CMakeFiles\flip.dir\build.make 2-assignments/CMakeFiles/flip.dir/depend
 	$(MAKE) $(MAKESILENT) -f 2-assignments\CMakeFiles\flip.dir\build.make 2-assignments/CMakeFiles/flip.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=29 "Built target flip"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num= "Built target flip"
 .PHONY : 2-assignments/CMakeFiles/flip.dir/all
 
 # Build rule for subdir invocation for target.
 2-assignments/CMakeFiles/flip.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 2-assignments/CMakeFiles/flip.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 .PHONY : 2-assignments/CMakeFiles/flip.dir/rule
@@ -1838,12 +1844,12 @@ flip: 2-assignments/CMakeFiles/flip.dir/rule
 2-assignments/CMakeFiles/statistics.dir/all:
 	$(MAKE) $(MAKESILENT) -f 2-assignments\CMakeFiles\statistics.dir\build.make 2-assignments/CMakeFiles/statistics.dir/depend
 	$(MAKE) $(MAKESILENT) -f 2-assignments\CMakeFiles\statistics.dir\build.make 2-assignments/CMakeFiles/statistics.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num= "Built target statistics"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=81 "Built target statistics"
 .PHONY : 2-assignments/CMakeFiles/statistics.dir/all
 
 # Build rule for subdir invocation for target.
 2-assignments/CMakeFiles/statistics.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 2-assignments/CMakeFiles/statistics.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 .PHONY : 2-assignments/CMakeFiles/statistics.dir/rule
@@ -1864,12 +1870,12 @@ statistics: 2-assignments/CMakeFiles/statistics.dir/rule
 3-for-a-while/CMakeFiles/binary-search.dir/all:
 	$(MAKE) $(MAKESILENT) -f 3-for-a-while\CMakeFiles\binary-search.dir\build.make 3-for-a-while/CMakeFiles/binary-search.dir/depend
 	$(MAKE) $(MAKESILENT) -f 3-for-a-while\CMakeFiles\binary-search.dir\build.make 3-for-a-while/CMakeFiles/binary-search.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=9 "Built target binary-search"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num= "Built target binary-search"
 .PHONY : 3-for-a-while/CMakeFiles/binary-search.dir/all
 
 # Build rule for subdir invocation for target.
 3-for-a-while/CMakeFiles/binary-search.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 3-for-a-while/CMakeFiles/binary-search.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 .PHONY : 3-for-a-while/CMakeFiles/binary-search.dir/rule
@@ -1890,12 +1896,12 @@ binary-search: 3-for-a-while/CMakeFiles/binary-search.dir/rule
 3-for-a-while/CMakeFiles/stars-pyramid.dir/all:
 	$(MAKE) $(MAKESILENT) -f 3-for-a-while\CMakeFiles\stars-pyramid.dir\build.make 3-for-a-while/CMakeFiles/stars-pyramid.dir/depend
 	$(MAKE) $(MAKESILENT) -f 3-for-a-while\CMakeFiles\stars-pyramid.dir\build.make 3-for-a-while/CMakeFiles/stars-pyramid.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=81 "Built target stars-pyramid"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num= "Built target stars-pyramid"
 .PHONY : 3-for-a-while/CMakeFiles/stars-pyramid.dir/all
 
 # Build rule for subdir invocation for target.
 3-for-a-while/CMakeFiles/stars-pyramid.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 3-for-a-while/CMakeFiles/stars-pyramid.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 .PHONY : 3-for-a-while/CMakeFiles/stars-pyramid.dir/rule
@@ -1916,12 +1922,12 @@ stars-pyramid: 3-for-a-while/CMakeFiles/stars-pyramid.dir/rule
 3-for-a-while/CMakeFiles/primes.dir/all:
 	$(MAKE) $(MAKESILENT) -f 3-for-a-while\CMakeFiles\primes.dir\build.make 3-for-a-while/CMakeFiles/primes.dir/depend
 	$(MAKE) $(MAKESILENT) -f 3-for-a-while\CMakeFiles\primes.dir\build.make 3-for-a-while/CMakeFiles/primes.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num= "Built target primes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=70 "Built target primes"
 .PHONY : 3-for-a-while/CMakeFiles/primes.dir/all
 
 # Build rule for subdir invocation for target.
 3-for-a-while/CMakeFiles/primes.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 3-for-a-while/CMakeFiles/primes.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 .PHONY : 3-for-a-while/CMakeFiles/primes.dir/rule
@@ -1994,12 +2000,12 @@ palindrome: 3-for-a-while/CMakeFiles/palindrome.dir/rule
 3-for-a-while/CMakeFiles/digits.dir/all:
 	$(MAKE) $(MAKESILENT) -f 3-for-a-while\CMakeFiles\digits.dir\build.make 3-for-a-while/CMakeFiles/digits.dir/depend
 	$(MAKE) $(MAKESILENT) -f 3-for-a-while\CMakeFiles\digits.dir\build.make 3-for-a-while/CMakeFiles/digits.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=19 "Built target digits"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num= "Built target digits"
 .PHONY : 3-for-a-while/CMakeFiles/digits.dir/all
 
 # Build rule for subdir invocation for target.
 3-for-a-while/CMakeFiles/digits.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 3-for-a-while/CMakeFiles/digits.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 .PHONY : 3-for-a-while/CMakeFiles/digits.dir/rule
@@ -2020,7 +2026,7 @@ digits: 3-for-a-while/CMakeFiles/digits.dir/rule
 computer-basis-test/CMakeFiles/test2.dir/all:
 	$(MAKE) $(MAKESILENT) -f computer-basis-test\CMakeFiles\test2.dir\build.make computer-basis-test/CMakeFiles/test2.dir/depend
 	$(MAKE) $(MAKESILENT) -f computer-basis-test\CMakeFiles\test2.dir\build.make computer-basis-test/CMakeFiles/test2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=89 "Built target test2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=90 "Built target test2"
 .PHONY : computer-basis-test/CMakeFiles/test2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2046,12 +2052,12 @@ computer-basis-test/CMakeFiles/test2.dir/clean:
 3-assignments/CMakeFiles/palindrome_1.dir/all:
 	$(MAKE) $(MAKESILENT) -f 3-assignments\CMakeFiles\palindrome_1.dir\build.make 3-assignments/CMakeFiles/palindrome_1.dir/depend
 	$(MAKE) $(MAKESILENT) -f 3-assignments\CMakeFiles\palindrome_1.dir\build.make 3-assignments/CMakeFiles/palindrome_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num= "Built target palindrome_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=63 "Built target palindrome_1"
 .PHONY : 3-assignments/CMakeFiles/palindrome_1.dir/all
 
 # Build rule for subdir invocation for target.
 3-assignments/CMakeFiles/palindrome_1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 3-assignments/CMakeFiles/palindrome_1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 .PHONY : 3-assignments/CMakeFiles/palindrome_1.dir/rule
@@ -2072,7 +2078,7 @@ palindrome_1: 3-assignments/CMakeFiles/palindrome_1.dir/rule
 3-assignments/CMakeFiles/binary.dir/all:
 	$(MAKE) $(MAKESILENT) -f 3-assignments\CMakeFiles\binary.dir\build.make 3-assignments/CMakeFiles/binary.dir/depend
 	$(MAKE) $(MAKESILENT) -f 3-assignments\CMakeFiles\binary.dir\build.make 3-assignments/CMakeFiles/binary.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=8 "Built target binary"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=9 "Built target binary"
 .PHONY : 3-assignments/CMakeFiles/binary.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2098,7 +2104,7 @@ binary: 3-assignments/CMakeFiles/binary.dir/rule
 3-assignments/CMakeFiles/insertion-sort.dir/all:
 	$(MAKE) $(MAKESILENT) -f 3-assignments\CMakeFiles\insertion-sort.dir\build.make 3-assignments/CMakeFiles/insertion-sort.dir/depend
 	$(MAKE) $(MAKESILENT) -f 3-assignments\CMakeFiles\insertion-sort.dir\build.make 3-assignments/CMakeFiles/insertion-sort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=38 "Built target insertion-sort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=39 "Built target insertion-sort"
 .PHONY : 3-assignments/CMakeFiles/insertion-sort.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2124,12 +2130,12 @@ insertion-sort: 3-assignments/CMakeFiles/insertion-sort.dir/rule
 3-assignments/CMakeFiles/sudoku.dir/all:
 	$(MAKE) $(MAKESILENT) -f 3-assignments\CMakeFiles\sudoku.dir\build.make 3-assignments/CMakeFiles/sudoku.dir/depend
 	$(MAKE) $(MAKESILENT) -f 3-assignments\CMakeFiles\sudoku.dir\build.make 3-assignments/CMakeFiles/sudoku.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num= "Built target sudoku"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=85 "Built target sudoku"
 .PHONY : 3-assignments/CMakeFiles/sudoku.dir/all
 
 # Build rule for subdir invocation for target.
 3-assignments/CMakeFiles/sudoku.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 3-assignments/CMakeFiles/sudoku.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 .PHONY : 3-assignments/CMakeFiles/sudoku.dir/rule
@@ -2202,12 +2208,12 @@ josephus: 3-assignments/CMakeFiles/josephus.dir/rule
 3-assignments/CMakeFiles/mines.dir/all:
 	$(MAKE) $(MAKESILENT) -f 3-assignments\CMakeFiles\mines.dir\build.make 3-assignments/CMakeFiles/mines.dir/depend
 	$(MAKE) $(MAKESILENT) -f 3-assignments\CMakeFiles\mines.dir\build.make 3-assignments/CMakeFiles/mines.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=57 "Built target mines"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num= "Built target mines"
 .PHONY : 3-assignments/CMakeFiles/mines.dir/all
 
 # Build rule for subdir invocation for target.
 3-assignments/CMakeFiles/mines.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 3-assignments/CMakeFiles/mines.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 .PHONY : 3-assignments/CMakeFiles/mines.dir/rule
@@ -2228,12 +2234,12 @@ mines: 3-assignments/CMakeFiles/mines.dir/rule
 4-loops/CMakeFiles/game-of-life.dir/all:
 	$(MAKE) $(MAKESILENT) -f 4-loops\CMakeFiles\game-of-life.dir\build.make 4-loops/CMakeFiles/game-of-life.dir/depend
 	$(MAKE) $(MAKESILENT) -f 4-loops\CMakeFiles\game-of-life.dir\build.make 4-loops/CMakeFiles/game-of-life.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num= "Built target game-of-life"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=31 "Built target game-of-life"
 .PHONY : 4-loops/CMakeFiles/game-of-life.dir/all
 
 # Build rule for subdir invocation for target.
 4-loops/CMakeFiles/game-of-life.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 4-loops/CMakeFiles/game-of-life.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 .PHONY : 4-loops/CMakeFiles/game-of-life.dir/rule
@@ -2254,7 +2260,7 @@ game-of-life: 4-loops/CMakeFiles/game-of-life.dir/rule
 4-loops/CMakeFiles/merge.dir/all:
 	$(MAKE) $(MAKESILENT) -f 4-loops\CMakeFiles\merge.dir\build.make 4-loops/CMakeFiles/merge.dir/depend
 	$(MAKE) $(MAKESILENT) -f 4-loops\CMakeFiles\merge.dir\build.make 4-loops/CMakeFiles/merge.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=51 "Built target merge"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=52 "Built target merge"
 .PHONY : 4-loops/CMakeFiles/merge.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2280,7 +2286,7 @@ merge: 4-loops/CMakeFiles/merge.dir/rule
 5-assignments/CMakeFiles/magic_square.dir/all:
 	$(MAKE) $(MAKESILENT) -f 5-assignments\CMakeFiles\magic_square.dir\build.make 5-assignments/CMakeFiles/magic_square.dir/depend
 	$(MAKE) $(MAKESILENT) -f 5-assignments\CMakeFiles\magic_square.dir\build.make 5-assignments/CMakeFiles/magic_square.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=49 "Built target magic_square"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=50 "Built target magic_square"
 .PHONY : 5-assignments/CMakeFiles/magic_square.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2306,12 +2312,12 @@ magic_square: 5-assignments/CMakeFiles/magic_square.dir/rule
 5-assignments/CMakeFiles/sum-A.dir/all:
 	$(MAKE) $(MAKESILENT) -f 5-assignments\CMakeFiles\sum-A.dir\build.make 5-assignments/CMakeFiles/sum-A.dir/depend
 	$(MAKE) $(MAKESILENT) -f 5-assignments\CMakeFiles\sum-A.dir\build.make 5-assignments/CMakeFiles/sum-A.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=86 "Built target sum-A"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num= "Built target sum-A"
 .PHONY : 5-assignments/CMakeFiles/sum-A.dir/all
 
 # Build rule for subdir invocation for target.
 5-assignments/CMakeFiles/sum-A.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 5-assignments/CMakeFiles/sum-A.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 .PHONY : 5-assignments/CMakeFiles/sum-A.dir/rule
@@ -2332,12 +2338,12 @@ sum-A: 5-assignments/CMakeFiles/sum-A.dir/rule
 5-assignments/CMakeFiles/absolute-prime.dir/all:
 	$(MAKE) $(MAKESILENT) -f 5-assignments\CMakeFiles\absolute-prime.dir\build.make 5-assignments/CMakeFiles/absolute-prime.dir/depend
 	$(MAKE) $(MAKESILENT) -f 5-assignments\CMakeFiles\absolute-prime.dir\build.make 5-assignments/CMakeFiles/absolute-prime.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=3 "Built target absolute-prime"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num= "Built target absolute-prime"
 .PHONY : 5-assignments/CMakeFiles/absolute-prime.dir/all
 
 # Build rule for subdir invocation for target.
 5-assignments/CMakeFiles/absolute-prime.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 5-assignments/CMakeFiles/absolute-prime.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 .PHONY : 5-assignments/CMakeFiles/absolute-prime.dir/rule
@@ -2384,12 +2390,12 @@ lcp: 5-assignments/CMakeFiles/lcp.dir/rule
 5-assignments/CMakeFiles/ternary-search.dir/all:
 	$(MAKE) $(MAKESILENT) -f 5-assignments\CMakeFiles\ternary-search.dir\build.make 5-assignments/CMakeFiles/ternary-search.dir/depend
 	$(MAKE) $(MAKESILENT) -f 5-assignments\CMakeFiles\ternary-search.dir\build.make 5-assignments/CMakeFiles/ternary-search.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num= "Built target ternary-search"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=89 "Built target ternary-search"
 .PHONY : 5-assignments/CMakeFiles/ternary-search.dir/all
 
 # Build rule for subdir invocation for target.
 5-assignments/CMakeFiles/ternary-search.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 5-assignments/CMakeFiles/ternary-search.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 .PHONY : 5-assignments/CMakeFiles/ternary-search.dir/rule
@@ -2410,12 +2416,12 @@ ternary-search: 5-assignments/CMakeFiles/ternary-search.dir/rule
 5-assignments/CMakeFiles/next-permutation.dir/all:
 	$(MAKE) $(MAKESILENT) -f 5-assignments\CMakeFiles\next-permutation.dir\build.make 5-assignments/CMakeFiles/next-permutation.dir/depend
 	$(MAKE) $(MAKESILENT) -f 5-assignments\CMakeFiles\next-permutation.dir\build.make 5-assignments/CMakeFiles/next-permutation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=60 "Built target next-permutation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num= "Built target next-permutation"
 .PHONY : 5-assignments/CMakeFiles/next-permutation.dir/all
 
 # Build rule for subdir invocation for target.
 5-assignments/CMakeFiles/next-permutation.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 5-assignments/CMakeFiles/next-permutation.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 .PHONY : 5-assignments/CMakeFiles/next-permutation.dir/rule
@@ -2488,12 +2494,12 @@ plagiarize: 6-assignments/CMakeFiles/plagiarize.dir/rule
 6-assignments/CMakeFiles/max.dir/all:
 	$(MAKE) $(MAKESILENT) -f 6-assignments\CMakeFiles\max.dir\build.make 6-assignments/CMakeFiles/max.dir/depend
 	$(MAKE) $(MAKESILENT) -f 6-assignments\CMakeFiles\max.dir\build.make 6-assignments/CMakeFiles/max.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=50 "Built target max"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num= "Built target max"
 .PHONY : 6-assignments/CMakeFiles/max.dir/all
 
 # Build rule for subdir invocation for target.
 6-assignments/CMakeFiles/max.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 6-assignments/CMakeFiles/max.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 .PHONY : 6-assignments/CMakeFiles/max.dir/rule
@@ -2514,12 +2520,12 @@ max: 6-assignments/CMakeFiles/max.dir/rule
 6-assignments/CMakeFiles/tile.dir/all:
 	$(MAKE) $(MAKESILENT) -f 6-assignments\CMakeFiles\tile.dir\build.make 6-assignments/CMakeFiles/tile.dir/depend
 	$(MAKE) $(MAKESILENT) -f 6-assignments\CMakeFiles\tile.dir\build.make 6-assignments/CMakeFiles/tile.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=90 "Built target tile"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num= "Built target tile"
 .PHONY : 6-assignments/CMakeFiles/tile.dir/all
 
 # Build rule for subdir invocation for target.
 6-assignments/CMakeFiles/tile.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 6-assignments/CMakeFiles/tile.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 .PHONY : 6-assignments/CMakeFiles/tile.dir/rule
@@ -2618,12 +2624,12 @@ integration: 6-assignments/CMakeFiles/integration.dir/rule
 6-assignments/CMakeFiles/decomposition.dir/all:
 	$(MAKE) $(MAKESILENT) -f 6-assignments\CMakeFiles\decomposition.dir\build.make 6-assignments/CMakeFiles/decomposition.dir/depend
 	$(MAKE) $(MAKESILENT) -f 6-assignments\CMakeFiles\decomposition.dir\build.make 6-assignments/CMakeFiles/decomposition.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num= "Built target decomposition"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=19 "Built target decomposition"
 .PHONY : 6-assignments/CMakeFiles/decomposition.dir/all
 
 # Build rule for subdir invocation for target.
 6-assignments/CMakeFiles/decomposition.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 6-assignments/CMakeFiles/decomposition.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 .PHONY : 6-assignments/CMakeFiles/decomposition.dir/rule
@@ -2670,7 +2676,7 @@ fib-iter: 6-recursion/CMakeFiles/fib-iter.dir/rule
 6-recursion/CMakeFiles/min-re.dir/all:
 	$(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\min-re.dir\build.make 6-recursion/CMakeFiles/min-re.dir/depend
 	$(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\min-re.dir\build.make 6-recursion/CMakeFiles/min-re.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=56 "Built target min-re"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=57 "Built target min-re"
 .PHONY : 6-recursion/CMakeFiles/min-re.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2696,12 +2702,12 @@ min-re: 6-recursion/CMakeFiles/min-re.dir/rule
 6-recursion/CMakeFiles/gcd-euclid-re.dir/all:
 	$(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\gcd-euclid-re.dir\build.make 6-recursion/CMakeFiles/gcd-euclid-re.dir/depend
 	$(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\gcd-euclid-re.dir\build.make 6-recursion/CMakeFiles/gcd-euclid-re.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=32 "Built target gcd-euclid-re"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num= "Built target gcd-euclid-re"
 .PHONY : 6-recursion/CMakeFiles/gcd-euclid-re.dir/all
 
 # Build rule for subdir invocation for target.
 6-recursion/CMakeFiles/gcd-euclid-re.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 6-recursion/CMakeFiles/gcd-euclid-re.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 .PHONY : 6-recursion/CMakeFiles/gcd-euclid-re.dir/rule
@@ -2800,7 +2806,7 @@ fib-array: 6-recursion/CMakeFiles/fib-array.dir/rule
 6-recursion/CMakeFiles/gcd-euclid-iter.dir/all:
 	$(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\gcd-euclid-iter.dir\build.make 6-recursion/CMakeFiles/gcd-euclid-iter.dir/depend
 	$(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\gcd-euclid-iter.dir\build.make 6-recursion/CMakeFiles/gcd-euclid-iter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=31 "Built target gcd-euclid-iter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=32 "Built target gcd-euclid-iter"
 .PHONY : 6-recursion/CMakeFiles/gcd-euclid-iter.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2852,12 +2858,12 @@ gcd-euclidean-iter: 6-recursion/CMakeFiles/gcd-euclidean-iter.dir/rule
 6-recursion/CMakeFiles/gcd-euclidean-re.dir/all:
 	$(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\gcd-euclidean-re.dir\build.make 6-recursion/CMakeFiles/gcd-euclidean-re.dir/depend
 	$(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\gcd-euclidean-re.dir\build.make 6-recursion/CMakeFiles/gcd-euclidean-re.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num= "Built target gcd-euclidean-re"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=34 "Built target gcd-euclidean-re"
 .PHONY : 6-recursion/CMakeFiles/gcd-euclidean-re.dir/all
 
 # Build rule for subdir invocation for target.
 6-recursion/CMakeFiles/gcd-euclidean-re.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 6-recursion/CMakeFiles/gcd-euclidean-re.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 .PHONY : 6-recursion/CMakeFiles/gcd-euclidean-re.dir/rule
@@ -2878,7 +2884,7 @@ gcd-euclidean-re: 6-recursion/CMakeFiles/gcd-euclidean-re.dir/rule
 6-recursion/CMakeFiles/bsearch-re.dir/all:
 	$(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\bsearch-re.dir\build.make 6-recursion/CMakeFiles/bsearch-re.dir/depend
 	$(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\bsearch-re.dir\build.make 6-recursion/CMakeFiles/bsearch-re.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=12 "Built target bsearch-re"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=13 "Built target bsearch-re"
 .PHONY : 6-recursion/CMakeFiles/bsearch-re.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2904,7 +2910,7 @@ bsearch-re: 6-recursion/CMakeFiles/bsearch-re.dir/rule
 6-recursion/CMakeFiles/merge-sort.dir/all:
 	$(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\merge-sort.dir\build.make 6-recursion/CMakeFiles/merge-sort.dir/depend
 	$(MAKE) $(MAKESILENT) -f 6-recursion\CMakeFiles\merge-sort.dir\build.make 6-recursion/CMakeFiles/merge-sort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=53 "Built target merge-sort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=54 "Built target merge-sort"
 .PHONY : 6-recursion/CMakeFiles/merge-sort.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2956,12 +2962,12 @@ bizuo: 7-assignments/CMakeFiles/bizuo.dir/rule
 7-assignments/CMakeFiles/perspective.dir/all:
 	$(MAKE) $(MAKESILENT) -f 7-assignments\CMakeFiles\perspective.dir\build.make 7-assignments/CMakeFiles/perspective.dir/depend
 	$(MAKE) $(MAKESILENT) -f 7-assignments\CMakeFiles\perspective.dir\build.make 7-assignments/CMakeFiles/perspective.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=63 "Built target perspective"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num= "Built target perspective"
 .PHONY : 7-assignments/CMakeFiles/perspective.dir/all
 
 # Build rule for subdir invocation for target.
 7-assignments/CMakeFiles/perspective.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 7-assignments/CMakeFiles/perspective.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 .PHONY : 7-assignments/CMakeFiles/perspective.dir/rule
@@ -2982,12 +2988,12 @@ perspective: 7-assignments/CMakeFiles/perspective.dir/rule
 7-assignments/CMakeFiles/max_diff.dir/all:
 	$(MAKE) $(MAKESILENT) -f 7-assignments\CMakeFiles\max_diff.dir\build.make 7-assignments/CMakeFiles/max_diff.dir/depend
 	$(MAKE) $(MAKESILENT) -f 7-assignments\CMakeFiles\max_diff.dir\build.make 7-assignments/CMakeFiles/max_diff.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num= "Built target max_diff"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=51 "Built target max_diff"
 .PHONY : 7-assignments/CMakeFiles/max_diff.dir/all
 
 # Build rule for subdir invocation for target.
 7-assignments/CMakeFiles/max_diff.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 7-assignments/CMakeFiles/max_diff.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 .PHONY : 7-assignments/CMakeFiles/max_diff.dir/rule
@@ -3060,12 +3066,12 @@ stack: 7-assignments/CMakeFiles/stack.dir/rule
 7-assignments/CMakeFiles/brackets.dir/all:
 	$(MAKE) $(MAKESILENT) -f 7-assignments\CMakeFiles\brackets.dir\build.make 7-assignments/CMakeFiles/brackets.dir/depend
 	$(MAKE) $(MAKESILENT) -f 7-assignments\CMakeFiles\brackets.dir\build.make 7-assignments/CMakeFiles/brackets.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num= "Built target brackets"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=12 "Built target brackets"
 .PHONY : 7-assignments/CMakeFiles/brackets.dir/all
 
 # Build rule for subdir invocation for target.
 7-assignments/CMakeFiles/brackets.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 7-assignments/CMakeFiles/brackets.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 .PHONY : 7-assignments/CMakeFiles/brackets.dir/rule
@@ -3112,7 +3118,7 @@ wine: 7-assignments/CMakeFiles/wine.dir/rule
 7-data-types/CMakeFiles/loop.dir/all:
 	$(MAKE) $(MAKESILENT) -f 7-data-types\CMakeFiles\loop.dir\build.make 7-data-types/CMakeFiles/loop.dir/depend
 	$(MAKE) $(MAKESILENT) -f 7-data-types\CMakeFiles\loop.dir\build.make 7-data-types/CMakeFiles/loop.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=48 "Built target loop"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=49 "Built target loop"
 .PHONY : 7-data-types/CMakeFiles/loop.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3242,12 +3248,12 @@ rand: 7-data-types/CMakeFiles/rand.dir/rule
 8-pointers/CMakeFiles/pointer.dir/all:
 	$(MAKE) $(MAKESILENT) -f 8-pointers\CMakeFiles\pointer.dir\build.make 8-pointers/CMakeFiles/pointer.dir/depend
 	$(MAKE) $(MAKESILENT) -f 8-pointers\CMakeFiles\pointer.dir\build.make 8-pointers/CMakeFiles/pointer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=67 "Built target pointer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num= "Built target pointer"
 .PHONY : 8-pointers/CMakeFiles/pointer.dir/all
 
 # Build rule for subdir invocation for target.
 8-pointers/CMakeFiles/pointer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 8-pointers/CMakeFiles/pointer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 .PHONY : 8-pointers/CMakeFiles/pointer.dir/rule
@@ -3294,12 +3300,12 @@ selection_sort: 8-pointers/CMakeFiles/selection_sort.dir/rule
 8-pointers/CMakeFiles/strlen.dir/all:
 	$(MAKE) $(MAKESILENT) -f 8-pointers\CMakeFiles\strlen.dir\build.make 8-pointers/CMakeFiles/strlen.dir/depend
 	$(MAKE) $(MAKESILENT) -f 8-pointers\CMakeFiles\strlen.dir\build.make 8-pointers/CMakeFiles/strlen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=83 "Built target strlen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num= "Built target strlen"
 .PHONY : 8-pointers/CMakeFiles/strlen.dir/all
 
 # Build rule for subdir invocation for target.
 8-pointers/CMakeFiles/strlen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 8-pointers/CMakeFiles/strlen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 .PHONY : 8-pointers/CMakeFiles/strlen.dir/rule
@@ -3320,12 +3326,12 @@ strlen: 8-pointers/CMakeFiles/strlen.dir/rule
 8-assignments/CMakeFiles/title.dir/all:
 	$(MAKE) $(MAKESILENT) -f 8-assignments\CMakeFiles\title.dir\build.make 8-assignments/CMakeFiles/title.dir/depend
 	$(MAKE) $(MAKESILENT) -f 8-assignments\CMakeFiles\title.dir\build.make 8-assignments/CMakeFiles/title.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num= "Built target title"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=93 "Built target title"
 .PHONY : 8-assignments/CMakeFiles/title.dir/all
 
 # Build rule for subdir invocation for target.
 8-assignments/CMakeFiles/title.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 8-assignments/CMakeFiles/title.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 .PHONY : 8-assignments/CMakeFiles/title.dir/rule
@@ -3398,7 +3404,7 @@ substr: 8-assignments/CMakeFiles/substr.dir/rule
 8-assignments/CMakeFiles/stringcat.dir/all:
 	$(MAKE) $(MAKESILENT) -f 8-assignments\CMakeFiles\stringcat.dir\build.make 8-assignments/CMakeFiles/stringcat.dir/depend
 	$(MAKE) $(MAKESILENT) -f 8-assignments\CMakeFiles\stringcat.dir\build.make 8-assignments/CMakeFiles/stringcat.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=82 "Built target stringcat"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=83 "Built target stringcat"
 .PHONY : 8-assignments/CMakeFiles/stringcat.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3424,12 +3430,12 @@ stringcat: 8-assignments/CMakeFiles/stringcat.dir/rule
 8-assignments/CMakeFiles/tokenizer.dir/all:
 	$(MAKE) $(MAKESILENT) -f 8-assignments\CMakeFiles\tokenizer.dir\build.make 8-assignments/CMakeFiles/tokenizer.dir/depend
 	$(MAKE) $(MAKESILENT) -f 8-assignments\CMakeFiles\tokenizer.dir\build.make 8-assignments/CMakeFiles/tokenizer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=93 "Built target tokenizer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num= "Built target tokenizer"
 .PHONY : 8-assignments/CMakeFiles/tokenizer.dir/all
 
 # Build rule for subdir invocation for target.
 8-assignments/CMakeFiles/tokenizer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 8-assignments/CMakeFiles/tokenizer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 .PHONY : 8-assignments/CMakeFiles/tokenizer.dir/rule
@@ -3502,7 +3508,7 @@ split: 8-assignments/CMakeFiles/split.dir/rule
 10-struct/CMakeFiles/musician.dir/all:
 	$(MAKE) $(MAKESILENT) -f 10-struct\CMakeFiles\musician.dir\build.make 10-struct/CMakeFiles/musician.dir/depend
 	$(MAKE) $(MAKESILENT) -f 10-struct\CMakeFiles\musician.dir\build.make 10-struct/CMakeFiles/musician.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=59 "Built target musician"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=60 "Built target musician"
 .PHONY : 10-struct/CMakeFiles/musician.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3626,6 +3632,110 @@ josephus-linkedlist: 11-linkedlist/CMakeFiles/josephus-linkedlist.dir/rule
 .PHONY : 11-linkedlist/CMakeFiles/josephus-linkedlist.dir/clean
 
 #=============================================================================
+# Target rules for target 10-assignments/CMakeFiles/linkedlist.dir
+
+# All Build rule for target.
+10-assignments/CMakeFiles/linkedlist.dir/all:
+	$(MAKE) $(MAKESILENT) -f 10-assignments\CMakeFiles\linkedlist.dir\build.make 10-assignments/CMakeFiles/linkedlist.dir/depend
+	$(MAKE) $(MAKESILENT) -f 10-assignments\CMakeFiles\linkedlist.dir\build.make 10-assignments/CMakeFiles/linkedlist.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=48 "Built target linkedlist"
+.PHONY : 10-assignments/CMakeFiles/linkedlist.dir/all
+
+# Build rule for subdir invocation for target.
+10-assignments/CMakeFiles/linkedlist.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 10-assignments/CMakeFiles/linkedlist.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
+.PHONY : 10-assignments/CMakeFiles/linkedlist.dir/rule
+
+# Convenience name for target.
+linkedlist: 10-assignments/CMakeFiles/linkedlist.dir/rule
+.PHONY : linkedlist
+
+# clean rule for target.
+10-assignments/CMakeFiles/linkedlist.dir/clean:
+	$(MAKE) $(MAKESILENT) -f 10-assignments\CMakeFiles\linkedlist.dir\build.make 10-assignments/CMakeFiles/linkedlist.dir/clean
+.PHONY : 10-assignments/CMakeFiles/linkedlist.dir/clean
+
+#=============================================================================
+# Target rules for target 10-assignments/CMakeFiles/StackPour.dir
+
+# All Build rule for target.
+10-assignments/CMakeFiles/StackPour.dir/all:
+	$(MAKE) $(MAKESILENT) -f 10-assignments\CMakeFiles\StackPour.dir\build.make 10-assignments/CMakeFiles/StackPour.dir/depend
+	$(MAKE) $(MAKESILENT) -f 10-assignments\CMakeFiles\StackPour.dir\build.make 10-assignments/CMakeFiles/StackPour.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=3 "Built target StackPour"
+.PHONY : 10-assignments/CMakeFiles/StackPour.dir/all
+
+# Build rule for subdir invocation for target.
+10-assignments/CMakeFiles/StackPour.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 10-assignments/CMakeFiles/StackPour.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
+.PHONY : 10-assignments/CMakeFiles/StackPour.dir/rule
+
+# Convenience name for target.
+StackPour: 10-assignments/CMakeFiles/StackPour.dir/rule
+.PHONY : StackPour
+
+# clean rule for target.
+10-assignments/CMakeFiles/StackPour.dir/clean:
+	$(MAKE) $(MAKESILENT) -f 10-assignments\CMakeFiles\StackPour.dir\build.make 10-assignments/CMakeFiles/StackPour.dir/clean
+.PHONY : 10-assignments/CMakeFiles/StackPour.dir/clean
+
+#=============================================================================
+# Target rules for target 10-assignments/CMakeFiles/string-hash.dir
+
+# All Build rule for target.
+10-assignments/CMakeFiles/string-hash.dir/all:
+	$(MAKE) $(MAKESILENT) -f 10-assignments\CMakeFiles\string-hash.dir\build.make 10-assignments/CMakeFiles/string-hash.dir/depend
+	$(MAKE) $(MAKESILENT) -f 10-assignments\CMakeFiles\string-hash.dir\build.make 10-assignments/CMakeFiles/string-hash.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=82 "Built target string-hash"
+.PHONY : 10-assignments/CMakeFiles/string-hash.dir/all
+
+# Build rule for subdir invocation for target.
+10-assignments/CMakeFiles/string-hash.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 10-assignments/CMakeFiles/string-hash.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
+.PHONY : 10-assignments/CMakeFiles/string-hash.dir/rule
+
+# Convenience name for target.
+string-hash: 10-assignments/CMakeFiles/string-hash.dir/rule
+.PHONY : string-hash
+
+# clean rule for target.
+10-assignments/CMakeFiles/string-hash.dir/clean:
+	$(MAKE) $(MAKESILENT) -f 10-assignments\CMakeFiles\string-hash.dir\build.make 10-assignments/CMakeFiles/string-hash.dir/clean
+.PHONY : 10-assignments/CMakeFiles/string-hash.dir/clean
+
+#=============================================================================
+# Target rules for target 10-assignments/CMakeFiles/file-management-system.dir
+
+# All Build rule for target.
+10-assignments/CMakeFiles/file-management-system.dir/all:
+	$(MAKE) $(MAKESILENT) -f 10-assignments\CMakeFiles\file-management-system.dir\build.make 10-assignments/CMakeFiles/file-management-system.dir/depend
+	$(MAKE) $(MAKESILENT) -f 10-assignments\CMakeFiles\file-management-system.dir\build.make 10-assignments/CMakeFiles/file-management-system.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=29 "Built target file-management-system"
+.PHONY : 10-assignments/CMakeFiles/file-management-system.dir/all
+
+# Build rule for subdir invocation for target.
+10-assignments/CMakeFiles/file-management-system.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 10-assignments/CMakeFiles/file-management-system.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
+.PHONY : 10-assignments/CMakeFiles/file-management-system.dir/rule
+
+# Convenience name for target.
+file-management-system: 10-assignments/CMakeFiles/file-management-system.dir/rule
+.PHONY : file-management-system
+
+# clean rule for target.
+10-assignments/CMakeFiles/file-management-system.dir/clean:
+	$(MAKE) $(MAKESILENT) -f 10-assignments\CMakeFiles\file-management-system.dir\build.make 10-assignments/CMakeFiles/file-management-system.dir/clean
+.PHONY : 10-assignments/CMakeFiles/file-management-system.dir/clean
+
+#=============================================================================
 # Target rules for target FCS/FCS-1/CMakeFiles/smallest.dir
 
 # All Build rule for target.
@@ -3684,7 +3794,7 @@ FCS/FCS-1/CMakeFiles/binaryToInteger.dir/clean:
 FCS/FCS-1/CMakeFiles/merge-1.dir/all:
 	$(MAKE) $(MAKESILENT) -f FCS\FCS-1\CMakeFiles\merge-1.dir\build.make FCS/FCS-1/CMakeFiles/merge-1.dir/depend
 	$(MAKE) $(MAKESILENT) -f FCS\FCS-1\CMakeFiles\merge-1.dir\build.make FCS/FCS-1/CMakeFiles/merge-1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=52 "Built target merge-1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=53 "Built target merge-1"
 .PHONY : FCS/FCS-1/CMakeFiles/merge-1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3736,7 +3846,7 @@ FCS/FCS-1/CMakeFiles/rotate.dir/clean:
 FCS/FCS-2/CMakeFiles/ai.dir/all:
 	$(MAKE) $(MAKESILENT) -f FCS\FCS-2\CMakeFiles\ai.dir\build.make FCS/FCS-2/CMakeFiles/ai.dir/depend
 	$(MAKE) $(MAKESILENT) -f FCS\FCS-2\CMakeFiles\ai.dir\build.make FCS/FCS-2/CMakeFiles/ai.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=5 "Built target ai"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=6 "Built target ai"
 .PHONY : FCS/FCS-2/CMakeFiles/ai.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3814,12 +3924,12 @@ FCS/FCS-2/CMakeFiles/diversestring.dir/clean:
 FCS/FCS-2/CMakeFiles/antwar.dir/all:
 	$(MAKE) $(MAKESILENT) -f FCS\FCS-2\CMakeFiles\antwar.dir\build.make FCS/FCS-2/CMakeFiles/antwar.dir/depend
 	$(MAKE) $(MAKESILENT) -f FCS\FCS-2\CMakeFiles\antwar.dir\build.make FCS/FCS-2/CMakeFiles/antwar.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=6 "Built target antwar"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num= "Built target antwar"
 .PHONY : FCS/FCS-2/CMakeFiles/antwar.dir/all
 
 # Build rule for subdir invocation for target.
 FCS/FCS-2/CMakeFiles/antwar.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 FCS/FCS-2/CMakeFiles/antwar.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 .PHONY : FCS/FCS-2/CMakeFiles/antwar.dir/rule
@@ -3944,12 +4054,12 @@ FCS/FCS-3/CMakeFiles/dizhisuoxie.dir/clean:
 FCS/FSC-4/CMakeFiles/huiwenchuan.dir/all:
 	$(MAKE) $(MAKESILENT) -f FCS\FSC-4\CMakeFiles\huiwenchuan.dir\build.make FCS/FSC-4/CMakeFiles/huiwenchuan.dir/depend
 	$(MAKE) $(MAKESILENT) -f FCS\FSC-4\CMakeFiles\huiwenchuan.dir\build.make FCS/FSC-4/CMakeFiles/huiwenchuan.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num= "Built target huiwenchuan"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\c-project\cmake-build-debug\CMakeFiles --progress-num=38 "Built target huiwenchuan"
 .PHONY : FCS/FSC-4/CMakeFiles/huiwenchuan.dir/all
 
 # Build rule for subdir invocation for target.
 FCS/FSC-4/CMakeFiles/huiwenchuan.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 FCS/FSC-4/CMakeFiles/huiwenchuan.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\c-project\cmake-build-debug\CMakeFiles 0
 .PHONY : FCS/FSC-4/CMakeFiles/huiwenchuan.dir/rule
