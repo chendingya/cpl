@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7e9478bc-6a21-4a89-b082-e59bd969c476" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/../10-assignments/cmake-build-debug/CMakeFiles/string-hash.dir/C.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-assignments/cmake-build-debug/CMakeFiles/string-hash.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-assignments/cmake-build-debug/CMakeFiles/string-hash.dir/objects.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-assignments/cmake-build-debug/CMakeFiles/string-hash.dir/string-hash.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-assignments/file-management-system.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10-assignments/string-hash.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../9-project/.idea/sonarlint/issuestore/e/5/e5785538f95e6de8259e0a5d1b1ff7018bb9ce86" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../9-project/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../9-project/1024.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../9-project/128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../9-project/16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../9-project/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../9-project/2048.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../9-project/256.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../9-project/32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../9-project/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../9-project/4096.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../9-project/512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../9-project/64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../9-project/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../9-project/8192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../9-project/MainBackGround.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../9-project/PlayBackGround.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../9-project/README 211250094 陈鼎亚 2048.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../9-project/Win.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../9-project/gameover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../9-project/suspend.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/10-assignments/CMakeFiles/file-management-system.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/10-assignments/CMakeFiles/file-management-system.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/10-assignments/CMakeFiles/file-management-system.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/10-assignments/CMakeFiles/file-management-system.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/10-assignments/CMakeFiles/file-management-system.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/10-assignments/CMakeFiles/file-management-system.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/10-assignments/CMakeFiles/file-management-system.dir/linklibs.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/10-assignments/CMakeFiles/file-management-system.dir/objects1.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/10-assignments/CMakeFiles/file-management-system.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/10-assignments/CMakeFiles/string-hash.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/10-assignments/CMakeFiles/string-hash.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/10-assignments/CMakeFiles/string-hash.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/10-assignments/CMakeFiles/string-hash.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/10-assignments/CMakeFiles/string-hash.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/10-assignments/CMakeFiles/string-hash.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/10-assignments/CMakeFiles/string-hash.dir/linklibs.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/10-assignments/CMakeFiles/string-hash.dir/objects1.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/10-assignments/CMakeFiles/string-hash.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10-assignments/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../10-assignments/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10-assignments/StackPour.c" beforeDir="false" afterPath="$PROJECT_DIR$/../10-assignments/StackPour.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10-assignments/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../10-assignments/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10-assignments/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../10-assignments/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10-assignments/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../10-assignments/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10-assignments/cmake-build-debug/CMakeFiles/linkedlist.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../10-assignments/cmake-build-debug/CMakeFiles/linkedlist.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10-assignments/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../10-assignments/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10-assignments/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../10-assignments/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10-assignments/cmake-build-debug/Project.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../10-assignments/cmake-build-debug/Project.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10-assignments/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../10-assignments/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../9-project/2048.c" beforeDir="false" afterPath="$PROJECT_DIR$/../9-project/2048.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../9-project/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../9-project/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../9-project/MainBackGround.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../9-project/cmake-build-debug/2048.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../9-project/cmake-build-debug/2048.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../9-project/cmake-build-debug/CMakeFiles/2048.dir/2048.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../9-project/cmake-build-debug/CMakeFiles/2048.dir/2048.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../9-project/cmake-build-debug/CMakeFiles/2048.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../9-project/cmake-build-debug/CMakeFiles/2048.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../9-project/cmake-build-debug/CMakeFiles/2048.dir/linklibs.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/../9-project/cmake-build-debug/CMakeFiles/2048.dir/linklibs.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../9-project/cmake-build-debug/CMakeFiles/2048.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../9-project/cmake-build-debug/CMakeFiles/2048.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../9-project/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../9-project/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../check.c" beforeDir="false" afterPath="$PROJECT_DIR$/../check.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/0-intro/CMakeFiles/guess.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/0-intro/CMakeFiles/guess.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/0-intro/CMakeFiles/hello.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/0-intro/CMakeFiles/hello.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/0-intro/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/0-intro/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/1-assignments/CMakeFiles/ascii.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/1-assignments/CMakeFiles/ascii.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/1-assignments/CMakeFiles/change.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/1-assignments/CMakeFiles/change.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/1-assignments/CMakeFiles/gray.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/1-assignments/CMakeFiles/gray.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/1-assignments/CMakeFiles/inverse.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/1-assignments/CMakeFiles/inverse.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/1-assignments/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/1-assignments/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/1-assignments/CMakeFiles/time.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/1-assignments/CMakeFiles/time.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/1-assignments/CMakeFiles/weekday.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/1-assignments/CMakeFiles/weekday.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/1-types-io-std/CMakeFiles/ascii1.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/1-types-io-std/CMakeFiles/ascii1.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/1-types-io-std/CMakeFiles/gray1.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/1-types-io-std/CMakeFiles/gray1.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/1-types-io-std/CMakeFiles/inverse1.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/1-types-io-std/CMakeFiles/inverse1.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/1-types-io-std/CMakeFiles/planck1.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/1-types-io-std/CMakeFiles/planck1.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/1-types-io-std/CMakeFiles/quine1.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/1-types-io-std/CMakeFiles/quine1.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/1-types-io/CMakeFiles/admin.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/1-types-io/CMakeFiles/admin.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/1-types-io/CMakeFiles/admin_teacher.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/1-types-io/CMakeFiles/admin_teacher.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/1-types-io/CMakeFiles/circle.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/1-types-io/CMakeFiles/circle.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/1-types-io/CMakeFiles/int.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/1-types-io/CMakeFiles/int.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/1-types-io/CMakeFiles/mol.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/1-types-io/CMakeFiles/mol.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/1-types-io/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/1-types-io/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/10-assignments/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/10-assignments/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/10-assignments/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/10-assignments/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/10-struct/CMakeFiles/musician.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/10-struct/CMakeFiles/musician.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/11-linkedlist/CMakeFiles/josephus-linkedlist.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/11-linkedlist/CMakeFiles/josephus-linkedlist.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/2-assignments/CMakeFiles/calculator.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/2-assignments/CMakeFiles/calculator.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/2-assignments/CMakeFiles/cube.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/2-assignments/CMakeFiles/cube.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/2-assignments/CMakeFiles/flip.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/2-assignments/CMakeFiles/flip.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/2-assignments/CMakeFiles/money.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/2-assignments/CMakeFiles/money.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/2-assignments/CMakeFiles/once.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/2-assignments/CMakeFiles/once.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/2-assignments/CMakeFiles/statistics.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/2-assignments/CMakeFiles/statistics.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/2-if-for-array/CMakeFiles/min-of-three.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/2-if-for-array/CMakeFiles/min-of-three.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/2-if-for-array/CMakeFiles/min-of-two.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/2-if-for-array/CMakeFiles/min-of-two.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/2-if-for-array/CMakeFiles/min.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/2-if-for-array/CMakeFiles/min.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/2-if-for-array/CMakeFiles/sum.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/2-if-for-array/CMakeFiles/sum.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/3-assignments/CMakeFiles/binary.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/3-assignments/CMakeFiles/binary.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/3-assignments/CMakeFiles/insertion-sort.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/3-assignments/CMakeFiles/insertion-sort.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/3-assignments/CMakeFiles/mines.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/3-assignments/CMakeFiles/mines.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/3-assignments/CMakeFiles/palindrome_1.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/3-assignments/CMakeFiles/palindrome_1.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/3-assignments/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/3-assignments/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/3-assignments/CMakeFiles/sudoku.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/3-assignments/CMakeFiles/sudoku.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/3-for-a-while/CMakeFiles/binary-search.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/3-for-a-while/CMakeFiles/binary-search.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/3-for-a-while/CMakeFiles/digits.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/3-for-a-while/CMakeFiles/digits.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/3-for-a-while/CMakeFiles/palindrome.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/3-for-a-while/CMakeFiles/palindrome.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/3-for-a-while/CMakeFiles/primes.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/3-for-a-while/CMakeFiles/primes.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/3-for-a-while/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/3-for-a-while/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/3-for-a-while/CMakeFiles/stars-pyramid.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/3-for-a-while/CMakeFiles/stars-pyramid.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/4-loops/CMakeFiles/game-of-life.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/4-loops/CMakeFiles/game-of-life.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/4-loops/CMakeFiles/merge.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/4-loops/CMakeFiles/merge.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/4-loops/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/4-loops/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/5-assignments/CMakeFiles/absolute-prime.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/5-assignments/CMakeFiles/absolute-prime.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/5-assignments/CMakeFiles/magic_square.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/5-assignments/CMakeFiles/magic_square.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/5-assignments/CMakeFiles/next-permutation.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/5-assignments/CMakeFiles/next-permutation.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/5-assignments/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/5-assignments/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/5-assignments/CMakeFiles/sum-A.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/5-assignments/CMakeFiles/sum-A.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/5-assignments/CMakeFiles/ternary-search.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/5-assignments/CMakeFiles/ternary-search.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/6-assignments/CMakeFiles/decomposition.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/6-assignments/CMakeFiles/decomposition.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/6-assignments/CMakeFiles/integration.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/6-assignments/CMakeFiles/integration.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/6-assignments/CMakeFiles/max.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/6-assignments/CMakeFiles/max.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/6-assignments/CMakeFiles/plagiarize.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/6-assignments/CMakeFiles/plagiarize.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/6-assignments/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/6-assignments/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/6-assignments/CMakeFiles/tile.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/6-assignments/CMakeFiles/tile.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/6-recursion/CMakeFiles/bsearch-re.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/6-recursion/CMakeFiles/bsearch-re.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/6-recursion/CMakeFiles/fib-iter.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/6-recursion/CMakeFiles/fib-iter.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/6-recursion/CMakeFiles/gcd-euclid-iter.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/6-recursion/CMakeFiles/gcd-euclid-iter.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/6-recursion/CMakeFiles/gcd-euclid-re.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/6-recursion/CMakeFiles/gcd-euclid-re.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/6-recursion/CMakeFiles/gcd-euclidean-iter.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/6-recursion/CMakeFiles/gcd-euclidean-iter.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/6-recursion/CMakeFiles/gcd-euclidean-re.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/6-recursion/CMakeFiles/gcd-euclidean-re.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/6-recursion/CMakeFiles/merge-sort.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/6-recursion/CMakeFiles/merge-sort.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/6-recursion/CMakeFiles/min-re.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/6-recursion/CMakeFiles/min-re.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/6-recursion/CMakeFiles/sum-re.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/6-recursion/CMakeFiles/sum-re.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/7-assignments/CMakeFiles/bizuo.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/7-assignments/CMakeFiles/bizuo.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/7-assignments/CMakeFiles/brackets.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/7-assignments/CMakeFiles/brackets.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/7-assignments/CMakeFiles/max_diff.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/7-assignments/CMakeFiles/max_diff.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/7-assignments/CMakeFiles/perspective.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/7-assignments/CMakeFiles/perspective.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/7-assignments/CMakeFiles/pour.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/7-assignments/CMakeFiles/pour.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/7-assignments/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/7-assignments/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/7-data-types/CMakeFiles/compare.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/7-data-types/CMakeFiles/compare.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/7-data-types/CMakeFiles/fp.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/7-data-types/CMakeFiles/fp.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/7-data-types/CMakeFiles/loop.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/7-data-types/CMakeFiles/loop.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/7-data-types/CMakeFiles/rand.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/7-data-types/CMakeFiles/rand.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/7-data-types/CMakeFiles/sums.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/7-data-types/CMakeFiles/sums.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/8-assignments/CMakeFiles/split.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/8-assignments/CMakeFiles/split.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/8-assignments/CMakeFiles/stringcat.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/8-assignments/CMakeFiles/stringcat.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/8-assignments/CMakeFiles/substr.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/8-assignments/CMakeFiles/substr.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/8-assignments/CMakeFiles/title.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/8-assignments/CMakeFiles/title.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/8-assignments/CMakeFiles/tokenizer.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/8-assignments/CMakeFiles/tokenizer.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/8-pointers/CMakeFiles/pointer.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/8-pointers/CMakeFiles/pointer.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/8-pointers/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/8-pointers/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/8-pointers/CMakeFiles/strlen.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/8-pointers/CMakeFiles/strlen.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/9-project/CMakeFiles/2048.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/9-project/CMakeFiles/2048.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/9-project/CMakeFiles/2048.dir/linklibs.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/9-project/CMakeFiles/2048.dir/linklibs.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/check.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/check.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/check.dir/check.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/check.dir/check.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/check.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/check.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/check.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/check.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/FCS/FCS-1/CMakeFiles/binaryToInteger.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/FCS/FCS-1/CMakeFiles/binaryToInteger.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/FCS/FCS-1/CMakeFiles/merge-1.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/FCS/FCS-1/CMakeFiles/merge-1.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/FCS/FCS-2/CMakeFiles/ai.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/FCS/FCS-2/CMakeFiles/ai.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/FCS/FCS-2/CMakeFiles/antwar.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/FCS/FCS-2/CMakeFiles/antwar.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/FCS/FCS-2/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/FCS/FCS-2/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/FCS/FCS-3/CMakeFiles/division-method.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/FCS/FCS-3/CMakeFiles/division-method.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/FCS/FSC-4/CMakeFiles/huiwenchuan.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/FCS/FSC-4/CMakeFiles/huiwenchuan.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/FCS/FSC-4/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/FCS/FSC-4/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/c-project.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/c-project.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/check.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/check.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/computer-basis-test/CMakeFiles/test2.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/computer-basis-test/CMakeFiles/test2.dir/progress.make" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="245hFySzel8qMZiVdPCtwqy8zKV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="cmake.loaded.for.project" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="7e9478bc-6a21-4a89-b082-e59bd969c476" name="更改" comment="" />
+      <created>1642926254860</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1642926254860</updated>
+      <workItem from="1642926257194" duration="67000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
